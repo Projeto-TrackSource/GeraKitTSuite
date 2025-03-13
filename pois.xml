@@ -1,0 +1,1944 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<BASE_WAYPOINTS TIMESTAMP='202105070856'>
+	<REGRA>
+    	<ICONE VALOR='83'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Academia de ginástica'/>
+    	<CODIGO_GARMIN VALOR='2D0A'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='65942'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='6'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Acampamento, Camping'/>
+    	<CODIGO_GARMIN VALOR='2B03'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='65851'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='1'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Aeroporto, Aeródromo, Pista de pouso'/>
+    	<CODIGO_GARMIN VALOR='2F04'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='3'/>
+    	<NAVIT_ITEM_DEF VALOR='65832'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='13'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Água potável, Bica, Fonte'/>
+    	<CODIGO_GARMIN VALOR='5000'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='4'/>
+    	<NAVIT_ITEM_DEF VALOR='65887'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='58'/>
+        <TAG_DEFINIDORA VALOR='Rodovia' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='saida'/>
+    	<DESCRICAO VALOR='Apoio em rodovias (socorro mecânico)'/>
+    	<CODIGO_GARMIN VALOR='2100'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='131'/>
+    	<NAVIT_ITEM_DEF VALOR='65920'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='235'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Área de mergulho'/>
+    	<CODIGO_GARMIN VALOR='5C00'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='7'/>
+    	<NAVIT_ITEM_DEF VALOR='65886'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='43'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Área de natação natural e pública (exceto clube)'/>
+    	<CODIGO_GARMIN VALOR='5400'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='8'/>
+    	<NAVIT_ITEM_DEF VALOR='65945'/>
+    	<COMENTARIOS_NAO_ACEITO>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Acesso' POSIX='Acesso.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Clube' POSIX='Clube.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Estadio' POSIX='Estadio.*'/>
+    	</COMENTARIOS_NAO_ACEITO>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='12'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Área de perigo'/>
+    	<CODIGO_GARMIN VALOR='5700'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='9'/>
+    	<NAVIT_ITEM_DEF VALOR='65883'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='Atenção' POSIX='Aten[cç][aã]o.*'/>
+    	    <PALAVRA_CHAVE VALOR='Perigo' POSIX='Perigo.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='SIM'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='14'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Área de pesca, Pesque pague, Rio'/>
+    	<CODIGO_GARMIN VALOR='4100'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='10'/>
+    	<NAVIT_ITEM_DEF VALOR='65891'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='29'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Área de piquenique'/>
+    	<CODIGO_GARMIN VALOR='4A00'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='11'/>
+    	<NAVIT_ITEM_DEF VALOR='65849'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='122'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Área de risco de assalto, sequestro'/>
+    	<CODIGO_GARMIN VALOR='6400'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='149'/>
+    	<NAVIT_ITEM_DEF VALOR='65845'/>
+    	<GRAVA_NA_BASE VALOR='SIM'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='68'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Área militar, Forte, Quartel'/>
+    	<CODIGO_GARMIN VALOR='640B'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='12'/>
+    	<NAVIT_ITEM_DEF VALOR='65912'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='154'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Assistência Técnica'/>
+    	<CODIGO_GARMIN VALOR='2F13'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='148'/>
+    	<NAVIT_ITEM_DEF VALOR='0'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='169'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Assistente de navegação (Amarelo)'/>
+    	<CODIGO_GARMIN VALOR='1B12'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='14'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='171'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Assistente de navegação (Azul)'/>
+    	<CODIGO_GARMIN VALOR='1B15'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='15'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='180'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Assistente de navegação (Branco)'/>
+    	<CODIGO_GARMIN VALOR='1B0F'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='16'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='175'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Assistente de navegação (Laranja)'/>
+    	<CODIGO_GARMIN VALOR='1B13'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='17'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='170'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Assistente de navegação (Preto)'/>
+    	<CODIGO_GARMIN VALOR='1B14'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='18'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='172'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Assistente de navegação (Verde)'/>
+    	<CODIGO_GARMIN VALOR='1B11'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='19'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='173'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Assistente de navegação (Verde,Vermelho)'/>
+    	<CODIGO_GARMIN VALOR='1B16'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='20'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='176'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Assistente de navegação (Vermelho)'/>
+    	<CODIGO_GARMIN VALOR='1B10'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='21'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='190'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Assistente de navegação Desligado (Branco)'/>
+    	<CODIGO_GARMIN VALOR='1B07'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='22'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='170'/>
+        <TAG_DEFINIDORA VALOR='Desligado' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Assistente de navegação desligado (Preto)'/>
+    	<CODIGO_GARMIN VALOR='1B0A'/>
+    	<RGN_PMF VALOR='0'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='23'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='34'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Atração turística, Mirante, Vista'/>
+    	<CODIGO_GARMIN VALOR='2C04'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='95'/>
+    	<NAVIT_ITEM_DEF VALOR='65927'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='72'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Balança para pesagem de caminhões'/>
+    	<CODIGO_GARMIN VALOR='2400'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='24'/>
+    	<NAVIT_ITEM_DEF VALOR='65951'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='5'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Balsa, Ferry boat'/>
+    	<CODIGO_GARMIN VALOR='4700'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='100'/>
+    	<NAVIT_ITEM_DEF VALOR='65865'/>
+    	<COMENTARIOS_NAO_ACEITO>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Embarcadouro' POSIX='Embarcadouro.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Porto' POSIX='Porto.*'/>
+    	</COMENTARIOS_NAO_ACEITO>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='3'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Banco, Caixa automático, Banco Postal, Lotérica'/>
+    	<CODIGO_GARMIN VALOR='2F06'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='25'/>
+    	<NAVIT_ITEM_DEF VALOR='65862'/>
+    	<COMENTARIOS_NAO_ACEITO>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Caixa Economica Federal' POSIX='Caixa Economica Federal.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Real' POSIX='Real.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Unibanco' POSIX='Unibanco.*'/>
+    	</COMENTARIOS_NAO_ACEITO>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='33'/>
+        <TAG_DEFINIDORA VALOR='Rodovia' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='saida'/>
+    	<DESCRICAO VALOR='Banheiro em rodovia'/>
+    	<CODIGO_GARMIN VALOR='2200'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='26'/>
+    	<NAVIT_ITEM_DEF VALOR='65925'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='33'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Banheiro público'/>
+    	<CODIGO_GARMIN VALOR='4E00'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='5'/>
+    	<NAVIT_ITEM_DEF VALOR='66013'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='4'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Bar, Boate, Adega, etc'/>
+    	<CODIGO_GARMIN VALOR='2D02'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='27'/>
+    	<NAVIT_ITEM_DEF VALOR='65848'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='192'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Biblioteca'/>
+    	<CODIGO_GARMIN VALOR='2C03'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='29'/>
+    	<NAVIT_ITEM_DEF VALOR='65904'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='183'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Bóia branca'/>
+    	<CODIGO_GARMIN VALOR='1B06'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='30'/>
+    	<NAVIT_ITEM_DEF VALOR='65824'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='88'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Boliche'/>
+    	<CODIGO_GARMIN VALOR='2D07'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='31'/>
+    	<NAVIT_ITEM_DEF VALOR='65867'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='76'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Bombeiros'/>
+    	<CODIGO_GARMIN VALOR='3008'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='32'/>
+    	<NAVIT_ITEM_DEF VALOR='65890'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='87'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Buzina de nevoeiro'/>
+    	<CODIGO_GARMIN VALOR='1B01'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='33'/>
+    	<NAVIT_ITEM_DEF VALOR='65906'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='80'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Cachoeira'/>
+    	<CODIGO_GARMIN VALOR='6508'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='34'/>
+    	<NAVIT_ITEM_DEF VALOR='65847'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='102'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Cadeia de montanhas, Região geográfica, etc.'/>
+    	<CODIGO_GARMIN VALOR='2800'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='35'/>
+    	<NAVIT_ITEM_DEF VALOR='65993'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='19'/>
+        <TAG_DEFINIDORA VALOR='CamaeCafe' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Cama e Café'/>
+    	<CODIGO_GARMIN VALOR='2B02'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='145'/>
+    	<NAVIT_ITEM_DEF VALOR='65835'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='.*Cama' POSIX='.*Cama.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Dormitório' POSIX='.*Dormitório.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Hospedaria' POSIX='.*Hospedaria.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Pensão' POSIX='.*Pensão.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Pensionato' POSIX='.*Pensionato.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='17'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Campo de golfe'/>
+    	<CODIGO_GARMIN VALOR='2D05'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='36'/>
+    	<NAVIT_ITEM_DEF VALOR='65894'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='69'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Campo de petróleo'/>
+    	<CODIGO_GARMIN VALOR='640D'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='37'/>
+    	<NAVIT_ITEM_DEF VALOR='65915'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='90'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='cidade'/>
+    	<DESCRICAO VALOR='Capital ou Distrito Federal'/>
+    	<CODIGO_GARMIN VALOR='1'/>
+    	<RGN_PMF VALOR='20'/>
+    	<ZOOM VALOR='4'/>
+    	<ID VALOR='38'/>
+    	<NAVIT_ITEM_DEF VALOR='65559'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='59'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Cemitério, Velório e Funerárias'/>
+    	<CODIGO_GARMIN VALOR='6403'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='39'/>
+    	<NAVIT_ITEM_DEF VALOR='65874'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='119'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Centro de convenções'/>
+    	<CODIGO_GARMIN VALOR='2C09'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='40'/>
+    	<NAVIT_ITEM_DEF VALOR='65889'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='61'/>
+        <TAG_DEFINIDORA VALOR='Centro' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Centros comunitários'/>
+    	<CODIGO_GARMIN VALOR='3005'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='128'/>
+    	<NAVIT_ITEM_DEF VALOR='65877'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='10'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='cidade'/>
+    	<DESCRICAO VALOR='Cidade com até 25 mil habitantes'/>
+    	<CODIGO_GARMIN VALOR='9'/>
+    	<RGN_PMF VALOR='20'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='41'/>
+    	<NAVIT_ITEM_DEF VALOR='65553'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='8'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='cidade'/>
+    	<DESCRICAO VALOR='Cidade com mais de 100 mil habitantes'/>
+    	<CODIGO_GARMIN VALOR='3'/>
+    	<RGN_PMF VALOR='20'/>
+    	<ZOOM VALOR='4'/>
+    	<ID VALOR='44'/>
+    	<NAVIT_ITEM_DEF VALOR='65556'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='9'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='cidade'/>
+    	<DESCRICAO VALOR='Cidade entre 25 e 100 mil habitantes'/>
+    	<CODIGO_GARMIN VALOR='8'/>
+    	<RGN_PMF VALOR='20'/>
+    	<ZOOM VALOR='3'/>
+    	<ID VALOR='42'/>
+    	<NAVIT_ITEM_DEF VALOR='65554'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='66'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Cidade histórica ou fantasma'/>
+    	<CODIGO_GARMIN VALOR='6415'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='43'/>
+    	<NAVIT_ITEM_DEF VALOR='65817'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='84'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Cinema'/>
+    	<CODIGO_GARMIN VALOR='2D03'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='45'/>
+    	<NAVIT_ITEM_DEF VALOR='65876'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='43'/>
+        <TAG_DEFINIDORA VALOR='Clube' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Clube; Hípica; Associações Esportivas Privadas'/>
+    	<CODIGO_GARMIN VALOR='2D09'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='46'/>
+    	<NAVIT_ITEM_DEF VALOR='65921'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='101'/>
+     	<USAR_NO_MAPA VALOR='NAO' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Comentários do Desenvolvedor (não aparecerão no mapa compilado)'/>
+    	<CODIGO_GARMIN VALOR='1F01'/>
+    	<RGN_PMF VALOR='0'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='137'/>
+    	<NAVIT_ITEM_DEF VALOR='0'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='70'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Correios'/>
+    	<CODIGO_GARMIN VALOR='2F05'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='47'/>
+    	<NAVIT_ITEM_DEF VALOR='66023'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='63'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Cruzamento, Desvio, Rotatória'/>
+    	<CODIGO_GARMIN VALOR='6406'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='48'/>
+    	<NAVIT_ITEM_DEF VALOR='65881'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='191'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='cidade'/>
+    	<DESCRICAO VALOR='Distrito, Vila, Povoado, Bairro, etc'/>
+    	<CODIGO_GARMIN VALOR='9'/>
+    	<RGN_PMF VALOR='20'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='129'/>
+    	<NAVIT_ITEM_DEF VALOR='65805'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='148'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Escola, Universidade, etc.'/>
+    	<CODIGO_GARMIN VALOR='2C05'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='51'/>
+    	<NAVIT_ITEM_DEF VALOR='65928'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='41'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Esqui ou Esportes aquáticos'/>
+    	<CODIGO_GARMIN VALOR='5300'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='52'/>
+    	<NAVIT_ITEM_DEF VALOR='65926'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='141'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Estação de rádio ou TV'/>
+    	<CODIGO_GARMIN VALOR='1B02'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='53'/>
+    	<NAVIT_ITEM_DEF VALOR='65949'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='28'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Estacionamento'/>
+    	<CODIGO_GARMIN VALOR='2F0B'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='54'/>
+    	<NAVIT_ITEM_DEF VALOR='65842'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='92'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Estádio, Campo, Arena, Hipódromo; Complexo esportivo'/>
+    	<CODIGO_GARMIN VALOR='2C08'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='55'/>
+    	<NAVIT_ITEM_DEF VALOR='65943'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='52'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='cidade'/>
+    	<DESCRICAO VALOR='Estado da Federação'/>
+    	<CODIGO_GARMIN VALOR='1'/>
+    	<RGN_PMF VALOR='20'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='150'/>
+    	<NAVIT_ITEM_DEF VALOR='0'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='75'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Extremo de trilha'/>
+    	<CODIGO_GARMIN VALOR='6412'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='56'/>
+    	<NAVIT_ITEM_DEF VALOR='65950'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='97'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Farmácia, Drogaria'/>
+    	<CODIGO_GARMIN VALOR='2E05'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='57'/>
+    	<NAVIT_ITEM_DEF VALOR='66068'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='65'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Floresta'/>
+    	<CODIGO_GARMIN VALOR='660A'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='58'/>
+    	<NAVIT_ITEM_DEF VALOR='66065'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='18'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Heliponto'/>
+    	<CODIGO_GARMIN VALOR='5904'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='59'/>
+    	<NAVIT_ITEM_DEF VALOR='65897'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='25'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Hospital, Pronto-Socorro, Maternidade, Posto de Saúde'/>
+    	<CODIGO_GARMIN VALOR='3002'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='60'/>
+    	<NAVIT_ITEM_DEF VALOR='65850'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='.*24' POSIX='.*24.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Ambulatório' POSIX='.*Ambulatório.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Angio' POSIX='.*Angio.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Cent' POSIX='.*Cent.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Clínica' POSIX='.*Clínica.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Consultório' POSIX='.*Consultório.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Diagnóst' POSIX='.*Diagnóst.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Exame' POSIX='.*Exame.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Hospital' POSIX='.*Hospital.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Instituto' POSIX='.*Instituto.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Laboratório' POSIX='.*Laboratório.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Maternidade' POSIX='.*Maternidade.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Médic[ao]' POSIX='.*Médic[ao].*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Odont' POSIX='.*Odont.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Oftalm' POSIX='.*Oftalm.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Posto' POSIX='.*Posto.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Pronto' POSIX='.*Pronto.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Sanatório' POSIX='.*Sanatório.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Santa Casa' POSIX='.*Santa Casa.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*trauma' POSIX='.*trauma.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Urgência' POSIX='.*Urgência.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Veterinári[ao]' POSIX='.*Veterinári[ao].*'/>
+    	    <PALAVRA_CHAVE VALOR='Casa de Saúde' POSIX='Casa de Saúde.*'/>
+    	    <PALAVRA_CHAVE VALOR='Dentista' POSIX='Dentista.*'/>
+    	    <PALAVRA_CHAVE VALOR='Policlínica' POSIX='Policlínica.*'/>
+    	    <PALAVRA_CHAVE VALOR='Posto de Saúde' POSIX='Posto de Saúde.*'/>
+    	    <PALAVRA_CHAVE VALOR='PS' POSIX='PS.*'/>
+    	    <PALAVRA_CHAVE VALOR='Retiro' POSIX='Retiro.*'/>
+    	    <PALAVRA_CHAVE VALOR='UBS' POSIX='UBS.*'/>
+    	    <PALAVRA_CHAVE VALOR='UMS' POSIX='UMS.*'/>
+    	    <PALAVRA_CHAVE VALOR='Unidade' POSIX='Unidade.*'/>
+    	    <PALAVRA_CHAVE VALOR='UPA' POSIX='UPA.*'/>
+    	    <PALAVRA_CHAVE VALOR='USF' POSIX='USF.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='19'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Hotel, Pousada, Albergue'/>
+    	<CODIGO_GARMIN VALOR='2B01'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='61'/>
+    	<NAVIT_ITEM_DEF VALOR='65835'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='*Inn' POSIX='*Inn.*'/>
+    	    <PALAVRA_CHAVE VALOR='*Morada' POSIX='*Morada.*'/>
+    	    <PALAVRA_CHAVE VALOR='*Residence' POSIX='*Residence.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Albergue' POSIX='.*Albergue.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Chalé' POSIX='.*Chalé.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Estalagem' POSIX='.*Estalagem.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Estância' POSIX='.*Estância.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Flat' POSIX='.*Flat.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Guesthouse' POSIX='.*Guesthouse.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Hospedaria' POSIX='.*Hospedaria.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Hostel' POSIX='.*Hostel.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Hotel' POSIX='.*Hotel.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Inn' POSIX='.*Inn.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Pousada' POSIX='.*Pousada.*'/>
+    	    <PALAVRA_CHAVE VALOR='.*Residence' POSIX='.*Residence.*'/>
+    	    <PALAVRA_CHAVE VALOR='Sitio' POSIX='Sitio.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='60'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Igreja, Templo'/>
+    	<CODIGO_GARMIN VALOR='2C0B'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='62'/>
+    	<NAVIT_ITEM_DEF VALOR='65875'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='42'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Ilha'/>
+    	<CODIGO_GARMIN VALOR='650C'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='130'/>
+    	<NAVIT_ITEM_DEF VALOR='65823'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='21'/>
+        <TAG_DEFINIDORA VALOR='Rodovia' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='saida'/>
+    	<DESCRICAO VALOR='Informações em rodovias'/>
+    	<CODIGO_GARMIN VALOR='2600'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='64'/>
+    	<NAVIT_ITEM_DEF VALOR='65900'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='21'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Informações turísticas'/>
+    	<CODIGO_GARMIN VALOR='4C00'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='63'/>
+    	<NAVIT_ITEM_DEF VALOR='65900'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='121'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Lagoa'/>
+    	<CODIGO_GARMIN VALOR='650D'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='134'/>
+    	<NAVIT_ITEM_DEF VALOR='65822'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='64'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Lanchonete'/>
+    	<CODIGO_GARMIN VALOR='2A07'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='65'/>
+    	<NAVIT_ITEM_DEF VALOR='65858'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='7'/>
+        <TAG_DEFINIDORA VALOR='Lavagem' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Lava rápido'/>
+    	<CODIGO_GARMIN VALOR='2F0E'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='66'/>
+    	<NAVIT_ITEM_DEF VALOR='65872'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='89'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Locadora de veículos'/>
+    	<CODIGO_GARMIN VALOR='2F02'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='67'/>
+    	<NAVIT_ITEM_DEF VALOR='65871'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='159'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Loja - Artigos de casa e jardim'/>
+    	<CODIGO_GARMIN VALOR='2E08'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='69'/>
+    	<NAVIT_ITEM_DEF VALOR='66056'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='200'/>
+        <TAG_DEFINIDORA VALOR='Decoracao' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Loja - Decoração'/>
+    	<CODIGO_GARMIN VALOR='2E09'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='71'/>
+    	<NAVIT_ITEM_DEF VALOR='66066'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='200'/>
+        <TAG_DEFINIDORA VALOR='Departamentos' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Loja - Departamentos'/>
+    	<CODIGO_GARMIN VALOR='2E01'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='72'/>
+    	<NAVIT_ITEM_DEF VALOR='65932'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='200'/>
+        <TAG_DEFINIDORA VALOR='Especializada' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Loja - Especializada'/>
+    	<CODIGO_GARMIN VALOR='2E0A'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='75'/>
+    	<NAVIT_ITEM_DEF VALOR='65937'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='200'/>
+        <TAG_DEFINIDORA VALOR='Informatica' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Loja - Informática'/>
+    	<CODIGO_GARMIN VALOR='2E0B'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='73'/>
+    	<NAVIT_ITEM_DEF VALOR='65931'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='200'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Loja - Outros tipos'/>
+    	<CODIGO_GARMIN VALOR='2E00'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='68'/>
+    	<NAVIT_ITEM_DEF VALOR='65937'/>
+    	<COMENTARIOS_NAO_ACEITO>
+    	    <COMENTARIO_NAO_ACEITO VALOR='hotel' POSIX='hotel.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='pousada' POSIX='pousada.*'/>
+    	</COMENTARIOS_NAO_ACEITO>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='96'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Loja - Roupas e acessórios'/>
+    	<CODIGO_GARMIN VALOR='2E07'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='74'/>
+    	<NAVIT_ITEM_DEF VALOR='65930'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='201'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Lombada Rodoviária (Alerta 200m)'/>
+    	<CODIGO_GARMIN VALOR='5700'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='138'/>
+    	<NAVIT_ITEM_DEF VALOR='66050'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='Lombada' POSIX='Lombada.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='SIM'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='124'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Lombada Urbana (Alerta 50m)'/>
+    	<CODIGO_GARMIN VALOR='5700'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='136'/>
+    	<NAVIT_ITEM_DEF VALOR='66050'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='Lombada' POSIX='Lombada.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='SIM'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='23'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Marina'/>
+    	<CODIGO_GARMIN VALOR='2F09'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='76'/>
+    	<NAVIT_ITEM_DEF VALOR='65837'/>
+    	<COMENTARIOS_NAO_ACEITO>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Embarcadouro' POSIX='Embarcadouro.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Porto' POSIX='Porto.*'/>
+    	</COMENTARIOS_NAO_ACEITO>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='38'/>
+        <TAG_DEFINIDORA VALOR='Mercearia' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Mercearia'/>
+    	<CODIGO_GARMIN VALOR='2E02'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='77'/>
+    	<NAVIT_ITEM_DEF VALOR='65934'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='24'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Mina'/>
+    	<CODIGO_GARMIN VALOR='640C'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='78'/>
+    	<NAVIT_ITEM_DEF VALOR='65913'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='19'/>
+        <TAG_DEFINIDORA VALOR='Motel' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Motel'/>
+    	<CODIGO_GARMIN VALOR='2B00'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='144'/>
+    	<NAVIT_ITEM_DEF VALOR='65835'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='.*Motel' POSIX='.*Motel.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='93'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Museu'/>
+    	<CODIGO_GARMIN VALOR='2C02'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='80'/>
+    	<NAVIT_ITEM_DEF VALOR='65839'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='37'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Naufrágio'/>
+    	<CODIGO_GARMIN VALOR='4200'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='81'/>
+    	<NAVIT_ITEM_DEF VALOR='65884'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='130'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Numeração de Porta'/>
+    	<CODIGO_GARMIN VALOR='1F03'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='151'/>
+    	<NAVIT_ITEM_DEF VALOR='65844'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='^[0-9]{1,}$' POSIX='^[0-9]{1,}$.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='91'/>
+        <TAG_DEFINIDORA VALOR='ObstrucaoSuperficie' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Obstrução na superfície'/>
+    	<CODIGO_GARMIN VALOR='1C06'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='82'/>
+    	<NAVIT_ITEM_DEF VALOR='65883'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='91'/>
+        <TAG_DEFINIDORA VALOR='ObstrucaoSubmersa' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Obstrução submersa'/>
+    	<CODIGO_GARMIN VALOR='1C07'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='83'/>
+    	<NAVIT_ITEM_DEF VALOR='65883'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='91'/>
+        <TAG_DEFINIDORA VALOR='ObstrucaoVisivel' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Obstrução visível'/>
+    	<CODIGO_GARMIN VALOR='1C05'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='84'/>
+    	<NAVIT_ITEM_DEF VALOR='65883'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='58'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Oficina, Borracharia, Troca de óleo, Serviço em veículo'/>
+    	<CODIGO_GARMIN VALOR='2F03'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='85'/>
+    	<NAVIT_ITEM_DEF VALOR='65861'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='61'/>
+        <TAG_DEFINIDORA VALOR='Governo' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Órgão público do executivo, Prefeitura, Palácio federal e estadual, etc'/>
+    	<CODIGO_GARMIN VALOR='3003'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='126'/>
+    	<NAVIT_ITEM_DEF VALOR='65895'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='61'/>
+        <TAG_DEFINIDORA VALOR='Forum' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Órgão público do judiciário, Fórum, Tribunal, Comarca judicial, etc'/>
+    	<CODIGO_GARMIN VALOR='3004'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='127'/>
+    	<NAVIT_ITEM_DEF VALOR='65901'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='Cartório' POSIX='Cartório.*'/>
+    	    <PALAVRA_CHAVE VALOR='Fórum' POSIX='F[oó]rum.*'/>
+    	    <PALAVRA_CHAVE VALOR='Tribunal' POSIX='Tribunal.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='61'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Órgão público do legislativo e outros, Assembléia, Câmara, Senado, Congresso, Embaixada, etc'/>
+    	<CODIGO_GARMIN VALOR='3000'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='98'/>
+    	<NAVIT_ITEM_DEF VALOR='65877'/>
+    	<COMENTARIOS_NAO_ACEITO>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Camara' POSIX='Camara.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Congresso' POSIX='Congresso.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Prefeitura' POSIX='Prefeitura.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Senado' POSIX='Senado.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Subprefeitura' POSIX='Subprefeitura.*'/>
+    	</COMENTARIOS_NAO_ACEITO>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Padaria' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Padaria'/>
+    	<CODIGO_GARMIN VALOR='2A05'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='86'/>
+    	<NAVIT_ITEM_DEF VALOR='66033'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='94'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Parque de diversão'/>
+    	<CODIGO_GARMIN VALOR='2C01'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='87'/>
+    	<NAVIT_ITEM_DEF VALOR='65846'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='27'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Parque, Jardim, Praça'/>
+    	<CODIGO_GARMIN VALOR='2C06'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='88'/>
+    	<NAVIT_ITEM_DEF VALOR='65846'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='74'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='saida'/>
+    	<DESCRICAO VALOR='Pedágio'/>
+    	<CODIGO_GARMIN VALOR='2500'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='89'/>
+    	<NAVIT_ITEM_DEF VALOR='65833'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='Pedágio' POSIX='Ped[aá]gio.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='SIM'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='91'/>
+        <TAG_DEFINIDORA VALOR='PedraSuperficie' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Pedra na superfície'/>
+    	<CODIGO_GARMIN VALOR='1C09'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='90'/>
+    	<NAVIT_ITEM_DEF VALOR='65831'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='91'/>
+        <TAG_DEFINIDORA VALOR='PedraSubmersa' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Pedra submersa'/>
+    	<CODIGO_GARMIN VALOR='1C0A'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='91'/>
+    	<NAVIT_ITEM_DEF VALOR='65883'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='73'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Pico, Montanha, Morro'/>
+    	<CODIGO_GARMIN VALOR='6616'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='79'/>
+    	<NAVIT_ITEM_DEF VALOR='65993'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='149'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Placa de km em rodovia, Marco'/>
+    	<CODIGO_GARMIN VALOR='5A00'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='133'/>
+    	<NAVIT_ITEM_DEF VALOR='65959'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='Caminho da Luz' POSIX='Caminho da Luz.*'/>
+    	    <PALAVRA_CHAVE VALOR='Marco ER' POSIX='Marco ER.*'/>
+    	    <PALAVRA_CHAVE VALOR='Rota Imperial' POSIX='Rota Imperial.*'/>
+    	    <PALAVRA_CHAVE VALOR='[A-Z]{2,3}-[0-9]{3} Km [0-9]{1,3}' POSIX='[A-Z]{2,3}-[0-9]{3} Km [0-9]{1,3}.*'/>
+    	    <PALAVRA_CHAVE VALOR='[A-Z]{2,3}-[0-9]{3} KM [0-9]{1,3}' POSIX='[A-Z]{2,3}-[0-9]{3} KM [0-9]{1,3}.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='SIM'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='232'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Polícia Civil, Militar, Federal, Presidio, etc'/>
+    	<CODIGO_GARMIN VALOR='3001'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='2'/>
+    	<ID VALOR='49'/>
+    	<NAVIT_ITEM_DEF VALOR='65859'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='Brigada Militar' POSIX='Brigada Militar.*'/>
+    	    <PALAVRA_CHAVE VALOR='Força Federal' POSIX='For[cç]a Federal.*'/>
+    	    <PALAVRA_CHAVE VALOR='Guarda Civil' POSIX='Guarda Civil.*'/>
+    	    <PALAVRA_CHAVE VALOR='Guarda Municipal' POSIX='Guarda Municipal.*'/>
+    	    <PALAVRA_CHAVE VALOR='Polícia Ambiental' POSIX='Polícia Ambiental.*'/>
+    	    <PALAVRA_CHAVE VALOR='Polícia Científica' POSIX='Polícia Científica.*'/>
+    	    <PALAVRA_CHAVE VALOR='Polícia Civil' POSIX='Pol[ií]cia Civil.*'/>
+    	    <PALAVRA_CHAVE VALOR='Polícia Federal' POSIX='Pol[ií]cia Federal.*'/>
+    	    <PALAVRA_CHAVE VALOR='Polícia Florestal' POSIX='Pol[ií]cia Florestal.*'/>
+    	    <PALAVRA_CHAVE VALOR='Polícia Militar' POSIX='Pol[ií]cia Militar.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='40'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Polícia rodoviária'/>
+    	<CODIGO_GARMIN VALOR='3001'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='3'/>
+    	<ID VALOR='93'/>
+    	<NAVIT_ITEM_DEF VALOR='65859'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='Polícia Rodoviária' POSIX='Pol[ií]cia Rodovi[aá]ria.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='SIM'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='56'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Ponte, Viaduto'/>
+    	<CODIGO_GARMIN VALOR='6401'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='94'/>
+    	<NAVIT_ITEM_DEF VALOR='65845'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='30'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Portaria, Portão, Porteira, Tronqueira, Colchete'/>
+    	<CODIGO_GARMIN VALOR='6602'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='13'/>
+    	<NAVIT_ITEM_DEF VALOR='66062'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='49'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Porto'/>
+    	<CODIGO_GARMIN VALOR='650B'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='135'/>
+    	<NAVIT_ITEM_DEF VALOR='65865'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='15'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Posto de Gasolina'/>
+    	<CODIGO_GARMIN VALOR='2F01'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='96'/>
+    	<NAVIT_ITEM_DEF VALOR='65834'/>
+    	<COMENTARIOS_NAO_ACEITO>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Esso' POSIX='Esso.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Texaco' POSIX='Texaco.*'/>
+    	</COMENTARIOS_NAO_ACEITO>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='62'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Posto de Gasolina com Loja de Conveniência'/>
+    	<CODIGO_GARMIN VALOR='2E06'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='70'/>
+    	<NAVIT_ITEM_DEF VALOR='65834'/>
+    	<COMENTARIOS_NAO_ACEITO>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Esso' POSIX='Esso.*'/>
+    	    <COMENTARIO_NAO_ACEITO VALOR='Texaco' POSIX='Texaco.*'/>
+    	</COMENTARIOS_NAO_ACEITO>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='55'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Praia'/>
+    	<CODIGO_GARMIN VALOR='6604'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='97'/>
+    	<NAVIT_ITEM_DEF VALOR='65847'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='57'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Prédio, Indústria, Contruções e Imóveis em geral'/>
+    	<CODIGO_GARMIN VALOR='6402'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='50'/>
+    	<NAVIT_ITEM_DEF VALOR='65844'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='91'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Radar, Semáforos com registro de avanço e/ou velocidade, dispositivos de registro eletrônico de infrações'/>
+    	<CODIGO_GARMIN VALOR='3006'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='99'/>
+    	<NAVIT_ITEM_DEF VALOR='66019'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='Móvel' POSIX='M[oó]vel.*'/>
+    	    <PALAVRA_CHAVE VALOR='Radar' POSIX='Radar.*'/>
+    	    <PALAVRA_CHAVE VALOR='Semáforo' POSIX='Sem[aá]foro.*'/>
+    	</PALAVRAS_CHAVE>
+    	<GRAVA_NA_BASE VALOR='SIM'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='11'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Represa, Usina Hidrelétrica'/>
+    	<CODIGO_GARMIN VALOR='6407'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='101'/>
+    	<NAVIT_ITEM_DEF VALOR='65882'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='67'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Reservatório, Dique, Açude'/>
+    	<CODIGO_GARMIN VALOR='6407'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='28'/>
+    	<NAVIT_ITEM_DEF VALOR='65903'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='163'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Resort'/>
+    	<CODIGO_GARMIN VALOR='2B04'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='146'/>
+    	<NAVIT_ITEM_DEF VALOR='65835'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Alemao' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Alemão'/>
+    	<CODIGO_GARMIN VALOR='2A10'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='102'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Americano' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Americano'/>
+    	<CODIGO_GARMIN VALOR='2A01'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='103'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Asiatico' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Asiático (Japonês, Tailandês, Indiano, etc.)'/>
+    	<CODIGO_GARMIN VALOR='2A02'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='104'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Cafeteria' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Cafeteria'/>
+    	<CODIGO_GARMIN VALOR='2A0E'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='105'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Carnes' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Carnes'/>
+    	<CODIGO_GARMIN VALOR='2A0C'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='109'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Chines' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Chinês'/>
+    	<CODIGO_GARMIN VALOR='2A04'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='106'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Churrascaria' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Churrascaria'/>
+    	<CODIGO_GARMIN VALOR='2A03'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='107'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Frances' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Francês'/>
+    	<CODIGO_GARMIN VALOR='2A0F'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='110'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Mar' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Frutos do Mar'/>
+    	<CODIGO_GARMIN VALOR='2A0B'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='111'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Internacional' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Internacional'/>
+    	<CODIGO_GARMIN VALOR='2A06'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='108'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Italiano' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Italiano'/>
+    	<CODIGO_GARMIN VALOR='2A08'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='112'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+        <TAG_DEFINIDORA VALOR='Mexicano' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Mexicano'/>
+    	<CODIGO_GARMIN VALOR='2A09'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='113'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='32'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Outros Tipos, Buffet (Salão de Festas)'/>
+    	<CODIGO_GARMIN VALOR='2A00'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='114'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='98'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Restaurante - Pizzaria'/>
+    	<CODIGO_GARMIN VALOR='2A0A'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='92'/>
+    	<NAVIT_ITEM_DEF VALOR='65923'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='7'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Revenda de Veículos, Lojas de Peças e Acessórios'/>
+    	<CODIGO_GARMIN VALOR='2F07'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='115'/>
+    	<NAVIT_ITEM_DEF VALOR='65841'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='111'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Rocha, pedra, paredão, gruta'/>
+    	<CODIGO_GARMIN VALOR='6614'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='116'/>
+    	<NAVIT_ITEM_DEF VALOR='65831'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='146'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Rodoviária, Ferroviária, Metrô, Ponto de Táxi, Ponto de Ônibus'/>
+    	<CODIGO_GARMIN VALOR='2F08'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='122'/>
+    	<NAVIT_ITEM_DEF VALOR='65868'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='50'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='saida'/>
+    	<DESCRICAO VALOR='Saída de Rodovia'/>
+    	<CODIGO_GARMIN VALOR='2000'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='117'/>
+    	<NAVIT_ITEM_DEF VALOR='65821'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='205'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Serviços Pessoais'/>
+    	<CODIGO_GARMIN VALOR='2F10'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='147'/>
+    	<NAVIT_ITEM_DEF VALOR='0'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='38'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Shopping Center'/>
+    	<CODIGO_GARMIN VALOR='2E04'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='118'/>
+    	<NAVIT_ITEM_DEF VALOR='65907'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='38'/>
+        <TAG_DEFINIDORA VALOR='Supermercado' />
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Supermercado'/>
+    	<CODIGO_GARMIN VALOR='2E03'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='119'/>
+    	<NAVIT_ITEM_DEF VALOR='65840'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='85'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Teatro'/>
+    	<CODIGO_GARMIN VALOR='2D01'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='120'/>
+    	<NAVIT_ITEM_DEF VALOR='65947'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='45'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Telefone público, Posto Telefônico'/>
+    	<CODIGO_GARMIN VALOR='5100'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='121'/>
+    	<NAVIT_ITEM_DEF VALOR='65946'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='39'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Torre de Telecomunicações, Torre eólica, Transmissão de Energia, Antenas, etc'/>
+    	<CODIGO_GARMIN VALOR='6411'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='123'/>
+    	<NAVIT_ITEM_DEF VALOR='65949'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='77'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Túnel'/>
+    	<CODIGO_GARMIN VALOR='6413'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='1'/>
+    	<ID VALOR='124'/>
+    	<NAVIT_ITEM_DEF VALOR='65952'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='131'/>
+     	<USAR_NO_MAPA VALOR='NAO' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='nenhum'/>
+    	<DESCRICAO VALOR='Viaduto Assinalado (Não será compilado no mapa)'/>
+    	<CODIGO_GARMIN VALOR='1F02'/>
+    	<RGN_PMF VALOR='0'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='139'/>
+    	<NAVIT_ITEM_DEF VALOR='0'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='44'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Wireless, Hot Spot'/>
+    	<CODIGO_GARMIN VALOR='2F12'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='132'/>
+    	<NAVIT_ITEM_DEF VALOR='66002'/>
+    	<PALAVRAS_CHAVE>
+    	    <PALAVRA_CHAVE VALOR='Wifi' POSIX='Wifi.*'/>
+    	</PALAVRAS_CHAVE>
+    	<COMENTARIOS_NAO_ACEITO>
+    	    <COMENTARIO_NAO_ACEITO VALOR='*telefone' POSIX='*telefone.*'/>
+    	</COMENTARIOS_NAO_ACEITO>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+	<REGRA>
+    	<ICONE VALOR='86'/>
+     	<USAR_NO_MAPA VALOR='SIM' />
+    	<TIPO_COMENTARIO_ESTENDIDO VALOR='endereco'/>
+    	<DESCRICAO VALOR='Zoológico, Aquário'/>
+    	<CODIGO_GARMIN VALOR='2C07'/>
+    	<RGN_PMF VALOR='10'/>
+    	<ZOOM VALOR='0'/>
+    	<ID VALOR='125'/>
+    	<NAVIT_ITEM_DEF VALOR='65956'/>
+    	<GRAVA_NA_BASE VALOR='NAO'/>
+	</REGRA>
+</BASE_WAYPOINTS>

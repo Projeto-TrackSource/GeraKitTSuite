@@ -1,0 +1,30 @@
+Tracksource TSuite
+Copyright (C) 2010-2013 Projeto Tracksource
+   
+Creative Commons 2.5
+Atribuição - Uso Não-Comercial - Não a obras derivadas
+
+Você pode:
+
+    Copiar, distribuir, exibir e executar a obra
+
+Sob as seguintes condições:
+
+    Atribuição. Você deve dar crédito ao autor original, da forma especificada pelo autor ou licenciante. Em caso de redistribuição em página da internet, a atribuição deve ser feita colocando-se na linha superior ou inferior daquela onde se encontra o link de download o texto "Mapas Copyright (C) 2010-2012 Projeto Tracksource disponíveis para download gratuito em http://www.tracksource.org.br". Em caso de redistribuição em qualquer meio físico, deve constar na capa e/ou etiqueta do mesmo o texto "Mapas Copyright (C) 2010-2012 Projeto Tracksource disponíveis para download gratuito em http://www.tracksource.org.br"
+
+    Uso Não-Comercial. Você não pode utilizar esta obra com finalidades comerciais.
+
+    Vedada a Criação de Obras Derivadas. Você não pode alterar, transformar ou criar outra obra com base nesta.
+
+    Para cada novo uso ou distribuição, você deve deixar claro para outros os termos da licença desta obra.
+    Qualquer uma destas condições podem ser renunciadas, desde que Você obtenha permissão do autor.
+    Nada nesta licença diminui ou restringe os direitos morais do autor.
+
+Termo de exoneração de responsabilidade disclaimer
+
+Qualquer direito de uso legítimo (ou "fair use") concedido por lei, ou qualquer outro direito protegido pela legislação local, não são em hipótese alguma afetados pelo disposto acima.
+
+Este é um sumário para leigos da Licença Jurídica que pode ser acessada na íntegra no endereço: http://creativecommons.org/licenses/by-nc-nd/2.5/br/legalcode
+
+Para maiores informações, contacte o Projeto Tracksource em:
+http://www.tracksource.org.br

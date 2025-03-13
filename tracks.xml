@@ -1,0 +1,1883 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<BASE_TRACKS TIMESTAMP='202105110739'>
+	<REGRA>
+    	<ID VALOR='140'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='12566463'/>
+        <TAG_DEFINIDORA VALOR='Grande' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Área de cidade grande (mais de 200k habitantes)  '/>
+    	<CODIGO_GARMIN VALOR='1'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225480'/>
+    	<OSM>
+       		<TAG_OSM VALOR='place=city'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='19'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='9338481'/>
+        <TAG_DEFINIDORA VALOR='Industria' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Indústria, Unidade de Energia'/>
+    	<CODIGO_GARMIN VALOR='C'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='0'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225479'/>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='Colegio' POSIX='Colegio.*'/>
+       		<COMENTARIO_NAO_ACEITO VALOR='Condominio' POSIX='Condominio.*'/>
+       		<COMENTARIO_NAO_ACEITO VALOR='Escola' POSIX='Escola.*'/>
+       		<COMENTARIO_NAO_ACEITO VALOR='Marina' POSIX='Marina.*'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=industrial'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='20'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='9338481'/>
+        <TAG_DEFINIDORA VALOR='Marina' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Marina'/>
+    	<CODIGO_GARMIN VALOR='9'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225513'/>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='Condominio' POSIX='Condominio.*'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='leisure=marina'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='21'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='46848'/>
+        <TAG_DEFINIDORA VALOR='Mato' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Mato'/>
+    	<CODIGO_GARMIN VALOR='4F'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225493'/>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='Floresta' POSIX='Floresta.*'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='natural=scrub'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='22'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='9338481'/>
+        <TAG_DEFINIDORA VALOR='Shopping' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Shopping Center'/>
+    	<CODIGO_GARMIN VALOR='8'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='0'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225487'/>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=retail'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='23'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='9338481'/>
+        <TAG_DEFINIDORA VALOR='Universidade' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Universidade'/>
+    	<CODIGO_GARMIN VALOR='A'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='0'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225489'/>
+    	<OSM>
+       		<TAG_OSM VALOR='amenity=university'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='144'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='12566463'/>
+        <TAG_DEFINIDORA VALOR='Bloco' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Bloco'/>
+    	<CODIGO_GARMIN VALOR='25'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225480'/>
+    	<OSM>
+       		<TAG_OSM VALOR='place=square'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='143'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='9338481'/>
+        <TAG_DEFINIDORA VALOR='Condominio' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Condominio'/>
+    	<CODIGO_GARMIN VALOR='143'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225480'/>
+    	<OSM>
+       		<TAG_OSM VALOR='building=*'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='96'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='10485759'/>
+        <TAG_DEFINIDORA VALOR='Ilha' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='V'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Ilha'/>
+    	<CODIGO_GARMIN VALOR='53'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='3'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225530'/>
+    	<OSM>
+       		<TAG_OSM VALOR='natural=coastline'/>
+       		<TAG_OSM VALOR='place=island'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='100'/>
+    	<ESTILO VALOR='18'/>
+    	<COR VALOR='6592255'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Postos, locadoras e estacionamentos privativos'/>
+    	<CODIGO_GARMIN VALOR='6'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225480'/>
+    	<OSM>
+       		<TAG_OSM VALOR='parking=underground'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='101'/>
+    	<ESTILO VALOR='18'/>
+    	<COR VALOR='16762880'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Rio'/>
+    	<CODIGO_GARMIN VALOR='46'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225480'/>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='103'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='10551200'/>
+        <TAG_DEFINIDORA VALOR='Planice' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Planicies'/>
+    	<CODIGO_GARMIN VALOR='52'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225480'/>
+    	<OSM>
+       		<TAG_OSM VALOR='natural=tundra'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='145'/>
+    	<ESTILO VALOR='18'/>
+    	<COR VALOR='9338481'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Cabanas'/>
+    	<CODIGO_GARMIN VALOR='10'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='100'/>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=residential'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='146'/>
+    	<ESTILO VALOR='18'/>
+    	<COR VALOR='10551200'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Áreas gramadas, campo de golfe'/>
+    	<CODIGO_GARMIN VALOR='15'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='100'/>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=village_green'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='147'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='12566463'/>
+        <TAG_DEFINIDORA VALOR='greenfield' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='greenfield'/>
+    	<CODIGO_GARMIN VALOR='1c'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='100'/>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=greenfield'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='148'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='12566463'/>
+        <TAG_DEFINIDORA VALOR='construction' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='construction'/>
+    	<CODIGO_GARMIN VALOR='0c'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='100'/>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=construction'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='18'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='9338481'/>
+        <TAG_DEFINIDORA VALOR='Golfe' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Campo de Golfe'/>
+    	<CODIGO_GARMIN VALOR='18'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='0'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225488'/>
+    	<OSM>
+       		<TAG_OSM VALOR='leisure=golf_course'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='17'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='9338481'/>
+        <TAG_DEFINIDORA VALOR='Estacionamento' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Estacionamento'/>
+    	<CODIGO_GARMIN VALOR='5'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='0'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225478'/>
+    	<OSM>
+       		<TAG_OSM VALOR='amenity=parking'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='10'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='6592255'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Floresta'/>
+    	<CODIGO_GARMIN VALOR='50'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225474'/>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=forest'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='9'/>
+    	<ESTILO VALOR='23'/>
+    	<COR VALOR='15321034'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Pomar ou Plantação'/>
+    	<CODIGO_GARMIN VALOR='4E'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225503'/>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=farm'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='5'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='8421440'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Área Militar'/>
+    	<CODIGO_GARMIN VALOR='4'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225494'/>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='Subestacao' POSIX='Subestacao.*'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=military'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='8'/>
+    	<ESTILO VALOR='31'/>
+    	<COR VALOR='16107520'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='V'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Área Alagada'/>
+    	<CODIGO_GARMIN VALOR='4C'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='3'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225535'/>
+    	<OSM>
+       		<TAG_OSM VALOR='natural=marsh'/>
+       		<TAG_OSM VALOR='natural=wetland'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='7'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='15138815'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='V'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Fundo de Mapa Amarelo'/>
+    	<CODIGO_GARMIN VALOR='4B'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='4'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225473'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='AC-' POSIX='AC-.*'/>
+       		<PALAVRA_CHAVE VALOR='Acre' POSIX='Acre.*'/>
+       		<PALAVRA_CHAVE VALOR='AL-' POSIX='AL-.*'/>
+       		<PALAVRA_CHAVE VALOR='Alagoas' POSIX='Alagoas.*'/>
+       		<PALAVRA_CHAVE VALOR='AM-' POSIX='AM-.*'/>
+       		<PALAVRA_CHAVE VALOR='Amapá' POSIX='Amap[aá].*'/>
+       		<PALAVRA_CHAVE VALOR='Amazonas' POSIX='Amazonas.*'/>
+       		<PALAVRA_CHAVE VALOR='AP-' POSIX='AP-.*'/>
+       		<PALAVRA_CHAVE VALOR='BA-' POSIX='BA-.*'/>
+       		<PALAVRA_CHAVE VALOR='Bahia' POSIX='Bahia.*'/>
+       		<PALAVRA_CHAVE VALOR='CE-' POSIX='CE-.*'/>
+       		<PALAVRA_CHAVE VALOR='Ceará' POSIX='Cear[aá].*'/>
+       		<PALAVRA_CHAVE VALOR='DF-' POSIX='DF-.*'/>
+       		<PALAVRA_CHAVE VALOR='Distrito Federal' POSIX='Distrito Federal.*'/>
+       		<PALAVRA_CHAVE VALOR='ES-' POSIX='ES-.*'/>
+       		<PALAVRA_CHAVE VALOR='Espírito Santo' POSIX='Esp[ií]rito Santo.*'/>
+       		<PALAVRA_CHAVE VALOR='GO-' POSIX='GO-.*'/>
+       		<PALAVRA_CHAVE VALOR='Goiás' POSIX='Goi[aá]s.*'/>
+       		<PALAVRA_CHAVE VALOR='MA-' POSIX='MA-.*'/>
+       		<PALAVRA_CHAVE VALOR='Maranhão' POSIX='Maranh[aã]o.*'/>
+       		<PALAVRA_CHAVE VALOR='Mato Grosso' POSIX='Mato Grosso.*'/>
+       		<PALAVRA_CHAVE VALOR='Mato Grosso do Sul' POSIX='Mato Grosso do Sul.*'/>
+       		<PALAVRA_CHAVE VALOR='MG-' POSIX='MG-.*'/>
+       		<PALAVRA_CHAVE VALOR='Minas Gerais' POSIX='Minas Gerais.*'/>
+       		<PALAVRA_CHAVE VALOR='MS-' POSIX='MS-.*'/>
+       		<PALAVRA_CHAVE VALOR='MT-' POSIX='MT-.*'/>
+       		<PALAVRA_CHAVE VALOR='PA-' POSIX='PA-.*'/>
+       		<PALAVRA_CHAVE VALOR='Pará' POSIX='Par[aá].*'/>
+       		<PALAVRA_CHAVE VALOR='Paraíba' POSIX='Paraíba.*'/>
+       		<PALAVRA_CHAVE VALOR='Paraná' POSIX='Paran[aá].*'/>
+       		<PALAVRA_CHAVE VALOR='PB-' POSIX='PB-.*'/>
+       		<PALAVRA_CHAVE VALOR='PE-' POSIX='PE-.*'/>
+       		<PALAVRA_CHAVE VALOR='Pernambuco' POSIX='Pernambuco.*'/>
+       		<PALAVRA_CHAVE VALOR='PI-' POSIX='PI-.*'/>
+       		<PALAVRA_CHAVE VALOR='Piauí' POSIX='Piau[íi].*'/>
+       		<PALAVRA_CHAVE VALOR='PR-' POSIX='PR-.*'/>
+       		<PALAVRA_CHAVE VALOR='Rio de Janeiro' POSIX='Rio de Janeiro.*'/>
+       		<PALAVRA_CHAVE VALOR='Rio Grande do Norte' POSIX='Rio Grande do Norte.*'/>
+       		<PALAVRA_CHAVE VALOR='Rio Grande do Sul' POSIX='Rio Grande do Sul.*'/>
+       		<PALAVRA_CHAVE VALOR='RJ-' POSIX='RJ-.*'/>
+       		<PALAVRA_CHAVE VALOR='RN-' POSIX='RN-.*'/>
+       		<PALAVRA_CHAVE VALOR='RO-' POSIX='RO-.*'/>
+       		<PALAVRA_CHAVE VALOR='Rondônia' POSIX='Rond[oô]nia.*'/>
+       		<PALAVRA_CHAVE VALOR='Roraima' POSIX='Roraima.*'/>
+       		<PALAVRA_CHAVE VALOR='RR-' POSIX='RR-.*'/>
+       		<PALAVRA_CHAVE VALOR='RS-' POSIX='RS-.*'/>
+       		<PALAVRA_CHAVE VALOR='Santa Catarina' POSIX='Santa Catarina.*'/>
+       		<PALAVRA_CHAVE VALOR='São Paulo' POSIX='S[aã]o Paulo.*'/>
+       		<PALAVRA_CHAVE VALOR='SC-' POSIX='SC-.*'/>
+       		<PALAVRA_CHAVE VALOR='SE-' POSIX='SE-.*'/>
+       		<PALAVRA_CHAVE VALOR='Sergipe' POSIX='Sergipe.*'/>
+       		<PALAVRA_CHAVE VALOR='SP-' POSIX='SP-.*'/>
+       		<PALAVRA_CHAVE VALOR='TO-' POSIX='TO-.*'/>
+       		<PALAVRA_CHAVE VALOR='Tocantins' POSIX='Tocantins.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='place=town'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='11'/>
+    	<ESTILO VALOR='21'/>
+    	<COR VALOR='6718103'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Hospital, Pronto Socorro, Posto Médico, Salva Vidas'/>
+    	<CODIGO_GARMIN VALOR='B'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225481'/>
+    	<OSM>
+       		<TAG_OSM VALOR='amenity=hospital'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='6'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='16762880'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='V'/>
+    	<USO_TOPO VALOR='V'/>
+    	<DESCRICAO VALOR='Lago ou Grande Rio (largura superior a 100 metros)'/>
+    	<CODIGO_GARMIN VALOR='41'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='3'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225475'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Açude' POSIX='A[cç]ude.*'/>
+       		<PALAVRA_CHAVE VALOR='Arroio' POSIX='Arroio.*'/>
+       		<PALAVRA_CHAVE VALOR='Baía' POSIX='Ba[ií]a.*'/>
+       		<PALAVRA_CHAVE VALOR='Balne' POSIX='Balne.*'/>
+       		<PALAVRA_CHAVE VALOR='Barra' POSIX='Barra.*'/>
+       		<PALAVRA_CHAVE VALOR='Barragem' POSIX='Barragem.*'/>
+       		<PALAVRA_CHAVE VALOR='Canal' POSIX='Canal.*'/>
+       		<PALAVRA_CHAVE VALOR='Córrego' POSIX='C[oó]rrego.*'/>
+       		<PALAVRA_CHAVE VALOR='Dique' POSIX='Dique.*'/>
+       		<PALAVRA_CHAVE VALOR='Estuário' POSIX='Estuário.*'/>
+       		<PALAVRA_CHAVE VALOR='Furo' POSIX='Furo.*'/>
+       		<PALAVRA_CHAVE VALOR='Igarapé' POSIX='Igarap[eé].*'/>
+       		<PALAVRA_CHAVE VALOR='Lago' POSIX='Lago.*'/>
+       		<PALAVRA_CHAVE VALOR='Lagoa' POSIX='Lagoa.*'/>
+       		<PALAVRA_CHAVE VALOR='Lagoinha' POSIX='Lagoinha.*'/>
+       		<PALAVRA_CHAVE VALOR='Mang' POSIX='Mang.*'/>
+       		<PALAVRA_CHAVE VALOR='Mare' POSIX='Mare.*'/>
+       		<PALAVRA_CHAVE VALOR='Paraná' POSIX='Paran[aá].*'/>
+       		<PALAVRA_CHAVE VALOR='Raia' POSIX='Raia.*'/>
+       		<PALAVRA_CHAVE VALOR='Represa' POSIX='Represa.*'/>
+       		<PALAVRA_CHAVE VALOR='Reser' POSIX='Reser.*'/>
+       		<PALAVRA_CHAVE VALOR='Ribeirão' POSIX='Ribeir[aã]o.*'/>
+       		<PALAVRA_CHAVE VALOR='Rio' POSIX='Rio.*'/>
+       		<PALAVRA_CHAVE VALOR='Saco' POSIX='Saco.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='natural=water'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='4'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='16744448'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='V'/>
+    	<USO_TOPO VALOR='V'/>
+    	<DESCRICAO VALOR='Oceano ou Baía'/>
+    	<CODIGO_GARMIN VALOR='28'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='4'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225475'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Baía' POSIX='Ba[ií]a.*'/>
+       		<PALAVRA_CHAVE VALOR='Mar' POSIX='Mar.*'/>
+       		<PALAVRA_CHAVE VALOR='Oceano' POSIX='Oceano.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='natural=coastline'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='3'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='10928895'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Cemitério'/>
+    	<CODIGO_GARMIN VALOR='1A'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225477'/>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=cemetery'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='2'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='46848'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Praça ou Parque Municipal'/>
+    	<CODIGO_GARMIN VALOR='17'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225482'/>
+    	<OSM>
+       		<TAG_OSM VALOR='leisure=park'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='16'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='9338481'/>
+        <TAG_DEFINIDORA VALOR='Esportes' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Esportes'/>
+    	<CODIGO_GARMIN VALOR='19'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='0'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225483'/>
+    	<OSM>
+       		<TAG_OSM VALOR='leisure=sports_centre'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='15'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='10485759'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Reserva Indígena'/>
+    	<CODIGO_GARMIN VALOR='D'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='3'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225530'/>
+    	<OSM>
+       		<TAG_OSM VALOR='boundary=protected_area'/>
+       		<TAG_OSM VALOR='protect_class=24'/>
+       		<TAG_OSM VALOR='ethnic_group=indigenous'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='14'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='15724527'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Aeroporto - Área geral'/>
+    	<CODIGO_GARMIN VALOR='7'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225480'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Aeroclube' POSIX='Aeroclube.*'/>
+       		<PALAVRA_CHAVE VALOR='Aeródromo' POSIX='Aeródromo.*'/>
+       		<PALAVRA_CHAVE VALOR='Aeroporto' POSIX='Aeroporto.*'/>
+       		<PALAVRA_CHAVE VALOR='Base' POSIX='Base.*'/>
+       		<PALAVRA_CHAVE VALOR='Heliponto' POSIX='Heliponto.*'/>
+       		<PALAVRA_CHAVE VALOR='Heliporto' POSIX='Heliporto.*'/>
+       		<PALAVRA_CHAVE VALOR='Pátio' POSIX='Pátio.*'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='Pista.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='aeroway=aerodrome'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='13'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='12503270'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Duna, Praia ou Salina'/>
+    	<CODIGO_GARMIN VALOR='53'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='3'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225537'/>
+    	<OSM>
+       		<TAG_OSM VALOR='natural=land'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='12'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='12566463'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Favela'/>
+    	<CODIGO_GARMIN VALOR='51'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225550'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acampamento' POSIX='Acampamento.*'/>
+       		<PALAVRA_CHAVE VALOR='Aglomerado' POSIX='Aglomerado.*'/>
+       		<PALAVRA_CHAVE VALOR='Comunidade' POSIX='Comunidade.*'/>
+       		<PALAVRA_CHAVE VALOR='Favela' POSIX='Favela.*'/>
+       		<PALAVRA_CHAVE VALOR='Ocupação' POSIX='Ocupação.*'/>
+       		<PALAVRA_CHAVE VALOR='Vila' POSIX='Vila.*'/>
+   	</PALAVRAS_CHAVE>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='Condominio' POSIX='Condominio.*'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='landuse=residential'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='1'/>
+    	<ESTILO VALOR='17'/>
+    	<COR VALOR='10551200'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='a'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Parque Nacional ou Estadual'/>
+    	<CODIGO_GARMIN VALOR='14'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='3'/>
+    	<NAVIT_ITEM_DEF VALOR='3221225530'/>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='*resort' POSIX='*resort.*'/>
+       		<COMENTARIO_NAO_ACEITO VALOR='Hotel' POSIX='Hotel.*'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='leisure=nature_reserve'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='32'/>
+    	<ESTILO VALOR='7'/>
+    	<COR VALOR='0'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='0'/>
+    	<VEL VALOR='1'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Balsa ou Linha de Ferry Boat'/>
+    	<CODIGO_GARMIN VALOR='1A'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483669'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Balsa' POSIX='(Balsa .*|Balsa&lt;.*|Balsa)$'/>
+       		<PALAVRA_CHAVE VALOR='Ferry' POSIX='(Ferry .*|Ferry&lt;.*|Ferry)$'/>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='(Linha .*|Linha&lt;.*|Linha)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessia' POSIX='(Travessia .*|Travessia&lt;.*|Travessia)$'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='route=ferry'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='54'/>
+    	<ESTILO VALOR='2'/>
+    	<COR VALOR='8421504'/>
+        <TAG_DEFINIDORA VALOR='Rotatoria' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='0'/>
+    	<VEL VALOR='0'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Rotatória'/>
+    	<CODIGO_GARMIN VALOR='C'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483668'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acesso' POSIX='(Acesso .*|Acesso&lt;.*|Acesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Alameda' POSIX='(Alameda .*|Alameda&lt;.*|Alameda)$'/>
+       		<PALAVRA_CHAVE VALOR='Anel' POSIX='(Anel .*|Anel&lt;.*|Anel)$'/>
+       		<PALAVRA_CHAVE VALOR='Avenida' POSIX='(Avenida .*|Avenida&lt;.*|Avenida)$'/>
+       		<PALAVRA_CHAVE VALOR='Balão' POSIX='(Bal[aã]o .*|Bal[aã]o&lt;.*|Bal[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Bola' POSIX='(Bola .*|Bola&lt;.*|Bola)$'/>
+       		<PALAVRA_CHAVE VALOR='Contorno' POSIX='(Contorno .*|Contorno&lt;.*|Contorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Desvio' POSIX='(Desvio .*|Desvio&lt;.*|Desvio)$'/>
+       		<PALAVRA_CHAVE VALOR='Jardim' POSIX='(Jardim .*|Jardim&lt;.*|Jardim)$'/>
+       		<PALAVRA_CHAVE VALOR='Largo' POSIX='(Largo .*|Largo&lt;.*|Largo)$'/>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='(Linha .*|Linha&lt;.*|Linha)$'/>
+       		<PALAVRA_CHAVE VALOR='Marginal' POSIX='(Marginal .*|Marginal&lt;.*|Marginal)$'/>
+       		<PALAVRA_CHAVE VALOR='Parque' POSIX='(Parque .*|Parque&lt;.*|Parque)$'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='(Pista .*|Pista&lt;.*|Pista)$'/>
+       		<PALAVRA_CHAVE VALOR='Praça' POSIX='(Pra[cç]a .*|Pra[cç]a&lt;.*|Pra[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Quadra' POSIX='(Quadra .*|Quadra&lt;.*|Quadra)$'/>
+       		<PALAVRA_CHAVE VALOR='Rodoanel' POSIX='(Rodoanel .*|Rodoanel&lt;.*|Rodoanel)$'/>
+       		<PALAVRA_CHAVE VALOR='Rodovia' POSIX='(Rodovia .*|Rodovia&lt;.*|Rodovia)$'/>
+       		<PALAVRA_CHAVE VALOR='Rotatória' POSIX='(Rotat[oó]ria .*|Rotat[oó]ria&lt;.*|Rotat[oó]ria)$'/>
+       		<PALAVRA_CHAVE VALOR='Rótula' POSIX='(R[oó]tula .*|R[oó]tula&lt;.*|R[oó]tula)$'/>
+       		<PALAVRA_CHAVE VALOR='Rua' POSIX='(Rua .*|Rua&lt;.*|Rua)$'/>
+       		<PALAVRA_CHAVE VALOR='Trevo' POSIX='(Trevo .*|Trevo&lt;.*|Trevo)$'/>
+       		<PALAVRA_CHAVE VALOR='Via' POSIX='(Via .*|Via&lt;.*|Via)$'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=tertiary_link'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='57'/>
+    	<ESTILO VALOR='5'/>
+    	<COR VALOR='8454016'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='V'/>
+    	<DESCRICAO VALOR='Limite Verde de Mapa'/>
+    	<CODIGO_GARMIN VALOR='4A'/>
+    	<RGN_PMF VALOR='80'/>
+    	<ZOOM VALOR='4'/>
+    	<NAVIT_ITEM_DEF VALOR=''/>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='55'/>
+    	<ESTILO VALOR='2'/>
+    	<COR VALOR='8421504'/>
+        <TAG_DEFINIDORA VALOR='Trevo' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='0'/>
+    	<VEL VALOR='0'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Alça de ligação entre vias, Acesso, Retorno ou Trevo'/>
+    	<CODIGO_GARMIN VALOR='8'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483667'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acesso' POSIX='(Acesso .*|Acesso&lt;.*|Acesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Agulha' POSIX='(Agulha .*|Agulha&lt;.*|Agulha)$'/>
+       		<PALAVRA_CHAVE VALOR='Alça' POSIX='(Al[cç]a .*|Al[cç]a&lt;.*|Al[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Anel' POSIX='(Anel .*|Anel&lt;.*|Anel)$'/>
+       		<PALAVRA_CHAVE VALOR='Atalho' POSIX='(Atalho .*|Atalho&lt;.*|Atalho)$'/>
+       		<PALAVRA_CHAVE VALOR='Avenida' POSIX='(Avenida .*|Avenida&lt;.*|Avenida)$'/>
+       		<PALAVRA_CHAVE VALOR='Balão' POSIX='(Bal[aã]o .*|Bal[aã]o&lt;.*|Bal[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Contorno' POSIX='(Contorno .*|Contorno&lt;.*|Contorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Cruzamento' POSIX='(Cruzamento .*|Cruzamento&lt;.*|Cruzamento)$'/>
+       		<PALAVRA_CHAVE VALOR='Desvio' POSIX='(Desvio .*|Desvio&lt;.*|Desvio)$'/>
+       		<PALAVRA_CHAVE VALOR='Largo' POSIX='(Largo .*|Largo&lt;.*|Largo)$'/>
+       		<PALAVRA_CHAVE VALOR='Marginal' POSIX='(Marginal .*|Marginal&lt;.*|Marginal)$'/>
+       		<PALAVRA_CHAVE VALOR='Mergulhão' POSIX='(Mergulh[aã]o .*|Mergulh[aã]o&lt;.*|Mergulh[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Passagem' POSIX='(Passagem .*|Passagem&lt;.*|Passagem)$'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='(Pista .*|Pista&lt;.*|Pista)$'/>
+       		<PALAVRA_CHAVE VALOR='Ponte' POSIX='(Ponte .*|Ponte&lt;.*|Ponte)$'/>
+       		<PALAVRA_CHAVE VALOR='Praça' POSIX='(Pra[cç]a .*|Pra[cç]a&lt;.*|Pra[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Retorno' POSIX='(Retorno .*|Retorno&lt;.*|Retorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Rua' POSIX='(Rua .*|Rua&lt;.*|Rua)$'/>
+       		<PALAVRA_CHAVE VALOR='Saída' POSIX='(Sa[ií]da .*|Sa[ií]da&lt;.*|Sa[ií]da)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessa' POSIX='(Travessa .*|Travessa&lt;.*|Travessa)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessão' POSIX='(Travess[aã]o .*|Travess[aã]o&lt;.*|Travess[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Trevo' POSIX='(Trevo .*|Trevo&lt;.*|Trevo)$'/>
+       		<PALAVRA_CHAVE VALOR='Túnel' POSIX='(T[uú]nel .*|T[uú]nel&lt;.*|T[uú]nel)$'/>
+       		<PALAVRA_CHAVE VALOR='Via' POSIX='(Via .*|Via&lt;.*|Via)$'/>
+       		<PALAVRA_CHAVE VALOR='Viaduto' POSIX='(Viaduto .*|Viaduto&lt;.*|Viaduto)$'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=trunk_link'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='97'/>
+    	<ESTILO VALOR='6'/>
+    	<COR VALOR='8421440'/>
+        <TAG_DEFINIDORA VALOR='Energia' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Linha de transmissão elétrica'/>
+    	<CODIGO_GARMIN VALOR='29'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483681'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='Linha.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='power=line'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='53'/>
+    	<ESTILO VALOR='2'/>
+    	<COR VALOR='8421504'/>
+        <TAG_DEFINIDORA VALOR='Rampa' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='0'/>
+    	<VEL VALOR='0'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Rampa para mudança rápida entre vias paralelas de mesmo sentido'/>
+    	<CODIGO_GARMIN VALOR='9'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483667'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acesso' POSIX='(Acesso .*|Acesso&lt;.*|Acesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Agulha' POSIX='(Agulha .*|Agulha&lt;.*|Agulha)$'/>
+       		<PALAVRA_CHAVE VALOR='Alça' POSIX='(Al[cç]a .*|Al[cç]a&lt;.*|Al[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Anel' POSIX='(Anel .*|Anel&lt;.*|Anel)$'/>
+       		<PALAVRA_CHAVE VALOR='Atalho' POSIX='(Atalho .*|Atalho&lt;.*|Atalho)$'/>
+       		<PALAVRA_CHAVE VALOR='Desvio' POSIX='(Desvio .*|Desvio&lt;.*|Desvio)$'/>
+       		<PALAVRA_CHAVE VALOR='Marginal' POSIX='(Marginal .*|Marginal&lt;.*|Marginal)$'/>
+       		<PALAVRA_CHAVE VALOR='Mergulhão' POSIX='(Mergulh[aã]o .*|Mergulh[aã]o&lt;.*|Mergulh[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Passagem' POSIX='(Passagem .*|Passagem&lt;.*|Passagem)$'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='(Pista .*|Pista&lt;.*|Pista)$'/>
+       		<PALAVRA_CHAVE VALOR='Ponte' POSIX='(Ponte .*|Ponte&lt;.*|Ponte)$'/>
+       		<PALAVRA_CHAVE VALOR='Rampa' POSIX='(Rampa .*|Rampa&lt;.*|Rampa)$'/>
+       		<PALAVRA_CHAVE VALOR='Retorno' POSIX='(Retorno .*|Retorno&lt;.*|Retorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Saída' POSIX='(Sa[ií]da .*|Sa[ií]da&lt;.*|Sa[ií]da)$'/>
+       		<PALAVRA_CHAVE VALOR='Travesso' POSIX='(Travesso .*|Travesso&lt;.*|Travesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Via' POSIX='(Via .*|Via&lt;.*|Via)$'/>
+       		<PALAVRA_CHAVE VALOR='Viaduto' POSIX='(Viaduto .*|Viaduto&lt;.*|Viaduto)$'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=motorway_link'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='52'/>
+    	<ESTILO VALOR='4'/>
+    	<COR VALOR='16711680'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='3'/>
+    	<VEL VALOR='3'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Via Expressa Urbana ou Avenida Principal (via de tráfego rápido ou prioritário)'/>
+    	<CODIGO_GARMIN VALOR='1'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='3'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483660'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acesso' POSIX='(Acesso .*|Acesso&lt;.*|Acesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Alameda' POSIX='(Alameda .*|Alameda&lt;.*|Alameda)$'/>
+       		<PALAVRA_CHAVE VALOR='Alça' POSIX='(Al[cç]a .*|Al[cç]a&lt;.*|Al[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Anel' POSIX='(Anel .*|Anel&lt;.*|Anel)$'/>
+       		<PALAVRA_CHAVE VALOR='Arco' POSIX='(Arco .*|Arco&lt;.*|Arco)$'/>
+       		<PALAVRA_CHAVE VALOR='Avenida' POSIX='(Avenida .*|Avenida&lt;.*|Avenida)$'/>
+       		<PALAVRA_CHAVE VALOR='Boulevard' POSIX='(Boulevard .*|Boulevard&lt;.*|Boulevard)$'/>
+       		<PALAVRA_CHAVE VALOR='Complexo' POSIX='(Complexo .*|Complexo&lt;.*|Complexo)$'/>
+       		<PALAVRA_CHAVE VALOR='Contorno' POSIX='(Contorno .*|Contorno&lt;.*|Contorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Curva' POSIX='(Curva .*|Curva&lt;.*|Curva)$'/>
+       		<PALAVRA_CHAVE VALOR='Elevado' POSIX='(Elevado .*|Elevado&lt;.*|Elevado)$'/>
+       		<PALAVRA_CHAVE VALOR='Estrada' POSIX='(Estrada .*|Estrada&lt;.*|Estrada)$'/>
+       		<PALAVRA_CHAVE VALOR='Jardim' POSIX='(Jardim .*|Jardim&lt;.*|Jardim)$'/>
+       		<PALAVRA_CHAVE VALOR='Largo' POSIX='(Largo .*|Largo&lt;.*|Largo)$'/>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='(Linha .*|Linha&lt;.*|Linha)$'/>
+       		<PALAVRA_CHAVE VALOR='Marginal' POSIX='(Marginal .*|Marginal&lt;.*|Marginal)$'/>
+       		<PALAVRA_CHAVE VALOR='Mergulhão' POSIX='(Mergulh[aã]o .*|Mergulh[aã]o&lt;.*|Mergulh[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='(Pista .*|Pista&lt;.*|Pista)$'/>
+       		<PALAVRA_CHAVE VALOR='Ponte' POSIX='(Ponte .*|Ponte&lt;.*|Ponte)$'/>
+       		<PALAVRA_CHAVE VALOR='Praça' POSIX='(Pra[cç]a .*|Pra[cç]a&lt;.*|Pra[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Praia' POSIX='(Praia .*|Praia&lt;.*|Praia)$'/>
+       		<PALAVRA_CHAVE VALOR='Quadra' POSIX='(Quadra .*|Quadra&lt;.*|Quadra)$'/>
+       		<PALAVRA_CHAVE VALOR='Retorno' POSIX='(Retorno .*|Retorno&lt;.*|Retorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Rodovia' POSIX='(Rodovia .*|Rodovia&lt;.*|Rodovia)$'/>
+       		<PALAVRA_CHAVE VALOR='Rótula' POSIX='(R[oó]tula .*|R[oó]tula&lt;.*|R[oó]tula)$'/>
+       		<PALAVRA_CHAVE VALOR='Rua' POSIX='(Rua .*|Rua&lt;.*|Rua)$'/>
+       		<PALAVRA_CHAVE VALOR='Saída' POSIX='(Sa[ií]da .*|Sa[ií]da&lt;.*|Sa[ií]da)$'/>
+       		<PALAVRA_CHAVE VALOR='Setor' POSIX='(Setor .*|Setor&lt;.*|Setor)$'/>
+       		<PALAVRA_CHAVE VALOR='Transolímpica' POSIX='(Transolímpica .*|Transolímpica&lt;.*|Transolímpica)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessa' POSIX='(Travessa .*|Travessa&lt;.*|Travessa)$'/>
+       		<PALAVRA_CHAVE VALOR='Trincheira' POSIX='(Trincheira .*|Trincheira&lt;.*|Trincheira)$'/>
+       		<PALAVRA_CHAVE VALOR='Túnel' POSIX='(T[uú]nel .*|T[uú]nel&lt;.*|T[uú]nel)$'/>
+       		<PALAVRA_CHAVE VALOR='Via' POSIX='(Via .*|Via&lt;.*|Via)$'/>
+       		<PALAVRA_CHAVE VALOR='Viaduto' POSIX='(Viaduto .*|Viaduto&lt;.*|Viaduto)$'/>
+   	</PALAVRAS_CHAVE>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='.* Dr' POSIX='(.* Dr .*|.* Dr&lt;.*|.* Dr)$'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=primary'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='51'/>
+    	<ESTILO VALOR='8'/>
+    	<COR VALOR='32896'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	   <NTA />
+    	   <NTB />
+    	   <NTC />
+    	   <NTE />
+    	   <NTF />
+    	   <NTT />
+    	<RC VALOR='0'/>
+    	<VEL VALOR='1'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Trilha de Moto ou Mountain-Bike'/>
+    	<CODIGO_GARMIN VALOR='16'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483701'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Bicicleta' POSIX='(Bicicleta .*|Bicicleta&lt;.*|Bicicleta)$'/>
+       		<PALAVRA_CHAVE VALOR='Bike' POSIX='(Bike .*|Bike&lt;.*|Bike)$'/>
+       		<PALAVRA_CHAVE VALOR='Moto' POSIX='(Moto .*|Moto&lt;.*|Moto)$'/>
+       		<PALAVRA_CHAVE VALOR='Trilha' POSIX='(Trilha .*|Trilha&lt;.*|Trilha)$'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=path'/>
+       		<TAG_OSM VALOR='surface=unpaved'/>
+       		<TAG_OSM VALOR='bicycle=yes'/>
+       		<TAG_OSM VALOR='foot=yes'/>
+       		<TAG_OSM VALOR='motorcycle=yes'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='50'/>
+    	<ESTILO VALOR='2'/>
+    	<COR VALOR='128'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='0'/>
+    	<VEL VALOR='2'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Estrada de Terra Principal ou Rua Principal Não Pavimentada'/>
+    	<CODIGO_GARMIN VALOR='A'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483699'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acesso' POSIX='(Acesso .*|Acesso&lt;.*|Acesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Alameda' POSIX='(Alameda .*|Alameda&lt;.*|Alameda)$'/>
+       		<PALAVRA_CHAVE VALOR='Avenida' POSIX='(Avenida .*|Avenida&lt;.*|Avenida)$'/>
+       		<PALAVRA_CHAVE VALOR='Caminho' POSIX='(Caminho .*|Caminho&lt;.*|Caminho)$'/>
+       		<PALAVRA_CHAVE VALOR='Campo' POSIX='(Campo .*|Campo&lt;.*|Campo)$'/>
+       		<PALAVRA_CHAVE VALOR='Corredor' POSIX='(Corredor .*|Corredor&lt;.*|Corredor)$'/>
+       		<PALAVRA_CHAVE VALOR='Desvio' POSIX='(Desvio .*|Desvio&lt;.*|Desvio)$'/>
+       		<PALAVRA_CHAVE VALOR='Estrada' POSIX='(Estrada .*|Estrada&lt;.*|Estrada)$'/>
+       		<PALAVRA_CHAVE VALOR='Jardim' POSIX='(Jardim .*|Jardim&lt;.*|Jardim)$'/>
+       		<PALAVRA_CHAVE VALOR='Ladeira' POSIX='(Ladeira .*|Ladeira&lt;.*|Ladeira)$'/>
+       		<PALAVRA_CHAVE VALOR='Largo' POSIX='(Largo .*|Largo&lt;.*|Largo)$'/>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='(Linha .*|Linha&lt;.*|Linha)$'/>
+       		<PALAVRA_CHAVE VALOR='Loteamento' POSIX='(Loteamento .*|Loteamento&lt;.*|Loteamento)$'/>
+       		<PALAVRA_CHAVE VALOR='Parque' POSIX='(Parque .*|Parque&lt;.*|Parque)$'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='(Pista .*|Pista&lt;.*|Pista)$'/>
+       		<PALAVRA_CHAVE VALOR='Ponte' POSIX='(Ponte .*|Ponte&lt;.*|Ponte)$'/>
+       		<PALAVRA_CHAVE VALOR='Praça' POSIX='(Pra[cç]a .*|Pra[cç]a&lt;.*|Pra[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Praia' POSIX='(Praia .*|Praia&lt;.*|Praia)$'/>
+       		<PALAVRA_CHAVE VALOR='Quadra' POSIX='(Quadra .*|Quadra&lt;.*|Quadra)$'/>
+       		<PALAVRA_CHAVE VALOR='Ramal' POSIX='(Ramal .*|Ramal&lt;.*|Ramal)$'/>
+       		<PALAVRA_CHAVE VALOR='Rodovia' POSIX='(Rodovia .*|Rodovia&lt;.*|Rodovia)$'/>
+       		<PALAVRA_CHAVE VALOR='Rua' POSIX='(Rua .*|Rua&lt;.*|Rua)$'/>
+       		<PALAVRA_CHAVE VALOR='Saída' POSIX='(Sa[ií]da .*|Sa[ií]da&lt;.*|Sa[ií]da)$'/>
+       		<PALAVRA_CHAVE VALOR='Setor' POSIX='(Setor .*|Setor&lt;.*|Setor)$'/>
+       		<PALAVRA_CHAVE VALOR='Subida' POSIX='(Subida .*|Subida&lt;.*|Subida)$'/>
+       		<PALAVRA_CHAVE VALOR='Terminal' POSIX='(Terminal .*|Terminal&lt;.*|Terminal)$'/>
+       		<PALAVRA_CHAVE VALOR='Terra' POSIX='(Terra .*|Terra&lt;.*|Terra)$'/>
+       		<PALAVRA_CHAVE VALOR='Tifa' POSIX='(Tifa .*|Tifa&lt;.*|Tifa)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessa' POSIX='(Travessa .*|Travessa&lt;.*|Travessa)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessão' POSIX='(Travess[aã]o .*|Travess[aã]o&lt;.*|Travess[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Trilha' POSIX='(Trilha .*|Trilha&lt;.*|Trilha)$'/>
+       		<PALAVRA_CHAVE VALOR='Túnel' POSIX='(T[uú]nel .*|T[uú]nel&lt;.*|T[uú]nel)$'/>
+       		<PALAVRA_CHAVE VALOR='Via' POSIX='(Via .*|Via&lt;.*|Via)$'/>
+       		<PALAVRA_CHAVE VALOR='Viela' POSIX='(Viela .*|Viela&lt;.*|Viela)$'/>
+       		<PALAVRA_CHAVE VALOR='Vila' POSIX='(Vila .*|Vila&lt;.*|Vila)$'/>
+       		<PALAVRA_CHAVE VALOR='[A-Z]{2,3}-[0-9]{3}[^0-9]?' POSIX='[A-Z]{2,3}-[0-9]{3}[^0-9]?.*'/>
+   	</PALAVRAS_CHAVE>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='.* Dr' POSIX='(.* Dr .*|.* Dr&lt;.*|.* Dr)$'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=tertiary'/>
+       		<TAG_OSM VALOR='surface=unpaved'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='25'/>
+    	<ESTILO VALOR='3'/>
+    	<COR VALOR='16711680'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='4'/>
+    	<VEL VALOR='6'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Rodovia Pavimentada Duplicada'/>
+    	<CODIGO_GARMIN VALOR='1'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='4'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483660'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='AC-[0-9]{3}[^0-9]?' POSIX='AC-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='AL-[0-9]{3}[^0-9]?' POSIX='AL-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='AM-[0-9]{3}[^0-9]?' POSIX='AM-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='AP-[0-9]{3}[^0-9]?' POSIX='AP-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='BA-[0-9]{3}[^0-9]?' POSIX='BA-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='BR-[0-9]{3}[^0-9]?' POSIX='BR-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='CE-[0-9]{3}[^0-9]?' POSIX='CE-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='DF-[0-9]{3}[^0-9]?' POSIX='DF-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='ERS-[0-9]{3}[^0-9]?' POSIX='ERS-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='ES-[0-9]{3}[^0-9]?' POSIX='ES-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='GO-[0-9]{3}[^0-9]?' POSIX='GO-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='MA-[0-9]{3}[^0-9]?' POSIX='MA-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='MG-[0-9]{3}[^0-9]?' POSIX='MG-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='MS-[0-9]{3}[^0-9]?' POSIX='MS-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='MT-[0-9]{3}[^0-9]?' POSIX='MT-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PA-[0-9]{3}[^0-9]?' POSIX='PA-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PB-[0-9]{3}[^0-9]?' POSIX='PB-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PE-[0-9]{3}[^0-9]?' POSIX='PE-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PI-[0-9]{3}[^0-9]?' POSIX='PI-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PR-[0-9]{3}[^0-9]?' POSIX='PR-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PRC-[0-9]{3}[^0-9]?' POSIX='PRC-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PRT-[0-9]{3}[^0-9]?' POSIX='PRT-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RJ-[0-9]{3}[^0-9]?' POSIX='RJ-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RN-[0-9]{3}[^0-9]?' POSIX='RN-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RO-[0-9]{3}[^0-9]?' POSIX='RO-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RR-[0-9]{3}[^0-9]?' POSIX='RR-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RS-[0-9]{3}[^0-9]?' POSIX='RS-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RSC-[0-9]{3}[^0-9]?' POSIX='RSC-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='SC-[0-9]{3}[^0-9]?' POSIX='SC-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='SE-[0-9]{3}[^0-9]?' POSIX='SE-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='SP-[0-9]{3}[^0-9]?' POSIX='SP-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='SPI-[0-9]{3}[^0-9]?' POSIX='SPI-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='TO-[0-9]{3}[^0-9]?' POSIX='TO-[0-9]{3}[^0-9]?.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=motorway'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='27'/>
+    	<ESTILO VALOR='6'/>
+    	<COR VALOR='0'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Estrada de ferro'/>
+    	<CODIGO_GARMIN VALOR='14'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483652'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='ALL' POSIX='ALL.*'/>
+       		<PALAVRA_CHAVE VALOR='BRT' POSIX='BRT.*'/>
+       		<PALAVRA_CHAVE VALOR='CBTU' POSIX='CBTU.*'/>
+       		<PALAVRA_CHAVE VALOR='CPTM' POSIX='CPTM.*'/>
+       		<PALAVRA_CHAVE VALOR='E de Ferro' POSIX='E de Ferro.*'/>
+       		<PALAVRA_CHAVE VALOR='EFVM' POSIX='EFVM.*'/>
+       		<PALAVRA_CHAVE VALOR='Estrada de Ferro' POSIX='Estrada de Ferro.*'/>
+       		<PALAVRA_CHAVE VALOR='FCA' POSIX='FCA.*'/>
+       		<PALAVRA_CHAVE VALOR='Fepasa' POSIX='Fepasa.*'/>
+       		<PALAVRA_CHAVE VALOR='Ferr' POSIX='Ferr.*'/>
+       		<PALAVRA_CHAVE VALOR='Flumitrens' POSIX='Flumitrens.*'/>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='Linha.*'/>
+       		<PALAVRA_CHAVE VALOR='Linha Férrea' POSIX='Linha Férrea.*'/>
+       		<PALAVRA_CHAVE VALOR='Metro' POSIX='Metr[oô].*'/>
+       		<PALAVRA_CHAVE VALOR='MRS' POSIX='MRS.*'/>
+       		<PALAVRA_CHAVE VALOR='RFFSA' POSIX='RFFSA.*'/>
+       		<PALAVRA_CHAVE VALOR='RFNSA' POSIX='RFNSA.*'/>
+       		<PALAVRA_CHAVE VALOR='Supervia' POSIX='Supervia.*'/>
+       		<PALAVRA_CHAVE VALOR='Teleférico' POSIX='Telef[eé]rico.*'/>
+       		<PALAVRA_CHAVE VALOR='Trensurb' POSIX='Trensurb.*'/>
+       		<PALAVRA_CHAVE VALOR='VLP' POSIX='VLP.*'/>
+       		<PALAVRA_CHAVE VALOR='VLT' POSIX='VLT.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='railway=rail'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='28'/>
+    	<ESTILO VALOR='6'/>
+    	<COR VALOR='8421440'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Gasoduto, Oleoduto, Adutora'/>
+    	<CODIGO_GARMIN VALOR='28'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483681'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Adutora' POSIX='Adutora.*'/>
+       		<PALAVRA_CHAVE VALOR='Aqueduto' POSIX='Aqueduto.*'/>
+       		<PALAVRA_CHAVE VALOR='Gasoduto' POSIX='Gasoduto.*'/>
+       		<PALAVRA_CHAVE VALOR='Mineroduto' POSIX='Mineroduto.*'/>
+       		<PALAVRA_CHAVE VALOR='Oleoduto' POSIX='Oleoduto.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='man_made=pipeline'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='29'/>
+    	<ESTILO VALOR='6'/>
+    	<COR VALOR='16711808'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Pistas de Pouso e taxiamento'/>
+    	<CODIGO_GARMIN VALOR='27'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483686'/>
+    	<OSM>
+       		<TAG_OSM VALOR='aeroway=runway'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='30'/>
+    	<ESTILO VALOR='1'/>
+    	<COR VALOR='32896'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	   <NTA />
+    	   <NTB />
+    	   <NTE />
+    	   <NTF />
+    	   <NTT />
+    	<RC VALOR='0'/>
+    	<VEL VALOR='1'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Trilha 4x4 (off-road)'/>
+    	<CODIGO_GARMIN VALOR='16'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483693'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='4X4' POSIX='(4X4 .*|4X4&lt;.*|4X4)$'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=track'/>
+       		<TAG_OSM VALOR='surface=unpaved'/>
+       		<TAG_OSM VALOR='4wd_only=yes'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='31'/>
+    	<ESTILO VALOR='2'/>
+    	<COR VALOR='16744448'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='V'/>
+    	<DESCRICAO VALOR='Rio Grande'/>
+    	<CODIGO_GARMIN VALOR='1F'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='3'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483719'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Canal' POSIX='Canal.*'/>
+       		<PALAVRA_CHAVE VALOR='Igarapé' POSIX='Igarap[eé].*'/>
+       		<PALAVRA_CHAVE VALOR='Rio' POSIX='Rio.*'/>
+       		<PALAVRA_CHAVE VALOR='Valão' POSIX='Valão.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='waterway=river'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='33'/>
+    	<ESTILO VALOR='5'/>
+    	<COR VALOR='16777088'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='V'/>
+    	<DESCRICAO VALOR='Divisa Estadual'/>
+    	<CODIGO_GARMIN VALOR='1C'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='4'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483651'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acre' POSIX='Acre.*'/>
+       		<PALAVRA_CHAVE VALOR='Alagoas' POSIX='Alagoas.*'/>
+       		<PALAVRA_CHAVE VALOR='Amapá' POSIX='Amap[aá].*'/>
+       		<PALAVRA_CHAVE VALOR='Amazonas' POSIX='Amazonas.*'/>
+       		<PALAVRA_CHAVE VALOR='Bahia' POSIX='Bahia.*'/>
+       		<PALAVRA_CHAVE VALOR='Ceará' POSIX='Cear[aá].*'/>
+       		<PALAVRA_CHAVE VALOR='Distrito Federal' POSIX='Distrito Federal.*'/>
+       		<PALAVRA_CHAVE VALOR='Divisa' POSIX='Divisa.*'/>
+       		<PALAVRA_CHAVE VALOR='Espírito Santo' POSIX='Esp[ií]rito Santo.*'/>
+       		<PALAVRA_CHAVE VALOR='Goiás' POSIX='Goi[aá]s.*'/>
+       		<PALAVRA_CHAVE VALOR='Maranhão' POSIX='Maranh[aã]o.*'/>
+       		<PALAVRA_CHAVE VALOR='Mato Grosso' POSIX='Mato Grosso.*'/>
+       		<PALAVRA_CHAVE VALOR='Mato Grosso do Sul' POSIX='Mato Grosso do Sul.*'/>
+       		<PALAVRA_CHAVE VALOR='Minas Gerais' POSIX='Minas Gerais.*'/>
+       		<PALAVRA_CHAVE VALOR='Pará' POSIX='Par[aá].*'/>
+       		<PALAVRA_CHAVE VALOR='Paraíba' POSIX='Paraíba.*'/>
+       		<PALAVRA_CHAVE VALOR='Paraná' POSIX='Paran[aá].*'/>
+       		<PALAVRA_CHAVE VALOR='Pernambuco' POSIX='Pernambuco.*'/>
+       		<PALAVRA_CHAVE VALOR='Piauí' POSIX='Piau[íi].*'/>
+       		<PALAVRA_CHAVE VALOR='Rio de Janeiro' POSIX='Rio de Janeiro.*'/>
+       		<PALAVRA_CHAVE VALOR='Rio Grande do Norte' POSIX='Rio Grande do Norte.*'/>
+       		<PALAVRA_CHAVE VALOR='Rio Grande do Sul' POSIX='Rio Grande do Sul.*'/>
+       		<PALAVRA_CHAVE VALOR='Rondônia' POSIX='Rond[oô]nia.*'/>
+       		<PALAVRA_CHAVE VALOR='Roraima' POSIX='Roraima.*'/>
+       		<PALAVRA_CHAVE VALOR='Santa Catarina' POSIX='Santa Catarina.*'/>
+       		<PALAVRA_CHAVE VALOR='São Paulo' POSIX='S[aã]o Paulo.*'/>
+       		<PALAVRA_CHAVE VALOR='Sergipe' POSIX='Sergipe.*'/>
+       		<PALAVRA_CHAVE VALOR='Tocantins' POSIX='Tocantins.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='boundary=administrative'/>
+       		<TAG_OSM VALOR='admin_level=4'/>
+       		<TAG_OSM VALOR='place=state'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='34'/>
+    	<ESTILO VALOR='4'/>
+    	<COR VALOR='12615808'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Limite Municipal'/>
+    	<CODIGO_GARMIN VALOR='1D'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='4'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483764'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='AC-' POSIX='AC-.*'/>
+       		<PALAVRA_CHAVE VALOR='AL-' POSIX='AL-.*'/>
+       		<PALAVRA_CHAVE VALOR='AM-' POSIX='AM-.*'/>
+       		<PALAVRA_CHAVE VALOR='AP-' POSIX='AP-.*'/>
+       		<PALAVRA_CHAVE VALOR='BA-' POSIX='BA-.*'/>
+       		<PALAVRA_CHAVE VALOR='CE-' POSIX='CE-.*'/>
+       		<PALAVRA_CHAVE VALOR='DF-' POSIX='DF-.*'/>
+       		<PALAVRA_CHAVE VALOR='ES-' POSIX='ES-.*'/>
+       		<PALAVRA_CHAVE VALOR='GO-' POSIX='GO-.*'/>
+       		<PALAVRA_CHAVE VALOR='MA-' POSIX='MA-.*'/>
+       		<PALAVRA_CHAVE VALOR='MG-' POSIX='MG-.*'/>
+       		<PALAVRA_CHAVE VALOR='MS-' POSIX='MS-.*'/>
+       		<PALAVRA_CHAVE VALOR='MT-' POSIX='MT-.*'/>
+       		<PALAVRA_CHAVE VALOR='PA-' POSIX='PA-.*'/>
+       		<PALAVRA_CHAVE VALOR='PB-' POSIX='PB-.*'/>
+       		<PALAVRA_CHAVE VALOR='PE-' POSIX='PE-.*'/>
+       		<PALAVRA_CHAVE VALOR='PI-' POSIX='PI-.*'/>
+       		<PALAVRA_CHAVE VALOR='PR-' POSIX='PR-.*'/>
+       		<PALAVRA_CHAVE VALOR='RJ-' POSIX='RJ-.*'/>
+       		<PALAVRA_CHAVE VALOR='RN-' POSIX='RN-.*'/>
+       		<PALAVRA_CHAVE VALOR='RO-' POSIX='RO-.*'/>
+       		<PALAVRA_CHAVE VALOR='RR-' POSIX='RR-.*'/>
+       		<PALAVRA_CHAVE VALOR='RS-' POSIX='RS-.*'/>
+       		<PALAVRA_CHAVE VALOR='SC-' POSIX='SC-.*'/>
+       		<PALAVRA_CHAVE VALOR='SE-' POSIX='SE-.*'/>
+       		<PALAVRA_CHAVE VALOR='SP-' POSIX='SP-.*'/>
+       		<PALAVRA_CHAVE VALOR='TO-' POSIX='TO-.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='place=town'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='35'/>
+    	<ESTILO VALOR='5'/>
+    	<COR VALOR='65535'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='V'/>
+    	<DESCRICAO VALOR='Fronteira Internacional'/>
+    	<CODIGO_GARMIN VALOR='1E'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='4'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483650'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Argentina' POSIX='Argentina.*'/>
+       		<PALAVRA_CHAVE VALOR='Bolívia' POSIX='Bolívia.*'/>
+       		<PALAVRA_CHAVE VALOR='Brasil' POSIX='Brasil.*'/>
+       		<PALAVRA_CHAVE VALOR='Colômbia' POSIX='Colômbia.*'/>
+       		<PALAVRA_CHAVE VALOR='Fronteira' POSIX='Fronteira.*'/>
+       		<PALAVRA_CHAVE VALOR='Guiana' POSIX='Guiana.*'/>
+       		<PALAVRA_CHAVE VALOR='Guiana Francesa' POSIX='Guiana Francesa.*'/>
+       		<PALAVRA_CHAVE VALOR='Paraguai' POSIX='Paraguai.*'/>
+       		<PALAVRA_CHAVE VALOR='Peru' POSIX='Peru.*'/>
+       		<PALAVRA_CHAVE VALOR='Suriname' POSIX='Suriname.*'/>
+       		<PALAVRA_CHAVE VALOR='Uruguai' POSIX='Uruguai.*'/>
+       		<PALAVRA_CHAVE VALOR='Venezuela' POSIX='Venezuela.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='boundary=administrative'/>
+       		<TAG_OSM VALOR='admin_level=2'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='36'/>
+    	<ESTILO VALOR='1'/>
+    	<COR VALOR='16762880'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='V'/>
+    	<DESCRICAO VALOR='Rio Médio ou  Pequeno'/>
+    	<CODIGO_GARMIN VALOR='18'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483720'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Barra' POSIX='Barra.*'/>
+       		<PALAVRA_CHAVE VALOR='Canal' POSIX='Canal.*'/>
+       		<PALAVRA_CHAVE VALOR='Furo' POSIX='Furo.*'/>
+       		<PALAVRA_CHAVE VALOR='Igarapé' POSIX='Igarap[eé].*'/>
+       		<PALAVRA_CHAVE VALOR='Paraná' POSIX='Paran[aá].*'/>
+       		<PALAVRA_CHAVE VALOR='Rio' POSIX='Rio.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='waterway=canal'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='37'/>
+    	<ESTILO VALOR='3'/>
+    	<COR VALOR='255'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='3'/>
+    	<VEL VALOR='5'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Rodovia Pavimentada Simples'/>
+    	<CODIGO_GARMIN VALOR='2'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='4'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483659'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='AC-[0-9]{3}[^0-9]?' POSIX='AC-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='AL-[0-9]{3}[^0-9]?' POSIX='AL-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='AM-[0-9]{3}[^0-9]?' POSIX='AM-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='AMG-[0-9]{4}[^0-9]?' POSIX='AMG-[0-9]{4}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='AP-[0-9]{3}[^0-9]?' POSIX='AP-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='BA-[0-9]{3}[^0-9]?' POSIX='BA-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='BR-[0-9]{3}[^0-9]?' POSIX='BR-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='CE-[0-9]{3}[^0-9]?' POSIX='CE-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='DF-[0-9]{3}[^0-9]?' POSIX='DF-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='ERS-[0-9]{3}[^0-9]?' POSIX='ERS-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='ES-[0-9]{3}[^0-9]?' POSIX='ES-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='GO-[0-9]{3}[^0-9]?' POSIX='GO-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='MA-[0-9]{3}[^0-9]?' POSIX='MA-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='MG-[0-9]{3}[^0-9]?' POSIX='MG-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='MS-[0-9]{3}[^0-9]?' POSIX='MS-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='MT-[0-9]{3}[^0-9]?' POSIX='MT-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PA-[0-9]{3}[^0-9]?' POSIX='PA-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PB-[0-9]{3}[^0-9]?' POSIX='PB-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PE-[0-9]{3}[^0-9]?' POSIX='PE-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PI-[0-9]{3}[^0-9]?' POSIX='PI-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PR-[0-9]{3}[^0-9]?' POSIX='PR-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PRC-[0-9]{3}[^0-9]?' POSIX='PRC-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='PRT-[0-9]{3}[^0-9]?' POSIX='PRT-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RJ-[0-9]{3}[^0-9]?' POSIX='RJ-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RM-[0-9]{3}[^0-9]?' POSIX='RM-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RN-[0-9]{3}[^0-9]?' POSIX='RN-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RO-[0-9]{3}[^0-9]?' POSIX='RO-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RR-[0-9]{3}[^0-9]?' POSIX='RR-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RS-[0-9]{3}[^0-9]?' POSIX='RS-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='RSC-[0-9]{3}[^0-9]?' POSIX='RSC-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='SC-[0-9]{3}[^0-9]?' POSIX='SC-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='SCT-[0-9]{3}[^0-9]?' POSIX='SCT-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='SE-[0-9]{3}[^0-9]?' POSIX='SE-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='SP-[0-9]{3}[^0-9]?' POSIX='SP-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='SPA-[0-9]{3}[^0-9]?' POSIX='SPA-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='SPI-[0-9]{3}[^0-9]?' POSIX='SPI-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='TM-[0-9]{3}[^0-9]?' POSIX='TM-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='TO-[0-9]{3}[^0-9]?' POSIX='TO-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='VPE-[0-9]{3}[^0-9]?' POSIX='VPE-[0-9]{3}[^0-9]?.*'/>
+       		<PALAVRA_CHAVE VALOR='VRS-[0-9]{3}[^0-9]?' POSIX='VRS-[0-9]{3}[^0-9]?.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=trunk'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='39'/>
+    	<ESTILO VALOR='2'/>
+    	<COR VALOR='255'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='2'/>
+    	<VEL VALOR='3'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Avenida, Via Urbana Duplicada ou Estrada Municipal Duplicada'/>
+    	<CODIGO_GARMIN VALOR='2'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='3'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483659'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acesso' POSIX='(Acesso .*|Acesso&lt;.*|Acesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Alameda' POSIX='(Alameda .*|Alameda&lt;.*|Alameda)$'/>
+       		<PALAVRA_CHAVE VALOR='Alça' POSIX='(Al[cç]a .*|Al[cç]a&lt;.*|Al[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Anel' POSIX='(Anel .*|Anel&lt;.*|Anel)$'/>
+       		<PALAVRA_CHAVE VALOR='Avenida' POSIX='(Avenida .*|Avenida&lt;.*|Avenida)$'/>
+       		<PALAVRA_CHAVE VALOR='Boulevard' POSIX='(Boulevard .*|Boulevard&lt;.*|Boulevard)$'/>
+       		<PALAVRA_CHAVE VALOR='Complexo' POSIX='(Complexo .*|Complexo&lt;.*|Complexo)$'/>
+       		<PALAVRA_CHAVE VALOR='Contorno' POSIX='(Contorno .*|Contorno&lt;.*|Contorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Curva' POSIX='(Curva .*|Curva&lt;.*|Curva)$'/>
+       		<PALAVRA_CHAVE VALOR='Elevado' POSIX='(Elevado .*|Elevado&lt;.*|Elevado)$'/>
+       		<PALAVRA_CHAVE VALOR='Estrada' POSIX='(Estrada .*|Estrada&lt;.*|Estrada)$'/>
+       		<PALAVRA_CHAVE VALOR='Jardim' POSIX='(Jardim .*|Jardim&lt;.*|Jardim)$'/>
+       		<PALAVRA_CHAVE VALOR='Largo' POSIX='(Largo .*|Largo&lt;.*|Largo)$'/>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='(Linha .*|Linha&lt;.*|Linha)$'/>
+       		<PALAVRA_CHAVE VALOR='Marginal' POSIX='(Marginal .*|Marginal&lt;.*|Marginal)$'/>
+       		<PALAVRA_CHAVE VALOR='Mergulhão' POSIX='(Mergulh[aã]o .*|Mergulh[aã]o&lt;.*|Mergulh[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='(Pista .*|Pista&lt;.*|Pista)$'/>
+       		<PALAVRA_CHAVE VALOR='Ponte' POSIX='(Ponte .*|Ponte&lt;.*|Ponte)$'/>
+       		<PALAVRA_CHAVE VALOR='Praça' POSIX='(Pra[cç]a .*|Pra[cç]a&lt;.*|Pra[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Praia' POSIX='(Praia .*|Praia&lt;.*|Praia)$'/>
+       		<PALAVRA_CHAVE VALOR='Quadra' POSIX='(Quadra .*|Quadra&lt;.*|Quadra)$'/>
+       		<PALAVRA_CHAVE VALOR='Retorno' POSIX='(Retorno .*|Retorno&lt;.*|Retorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Rodovia' POSIX='(Rodovia .*|Rodovia&lt;.*|Rodovia)$'/>
+       		<PALAVRA_CHAVE VALOR='Rótula' POSIX='(R[oó]tula .*|R[oó]tula&lt;.*|R[oó]tula)$'/>
+       		<PALAVRA_CHAVE VALOR='Rua' POSIX='(Rua .*|Rua&lt;.*|Rua)$'/>
+       		<PALAVRA_CHAVE VALOR='Saída' POSIX='(Sa[ií]da .*|Sa[ií]da&lt;.*|Sa[ií]da)$'/>
+       		<PALAVRA_CHAVE VALOR='Setor' POSIX='(Setor .*|Setor&lt;.*|Setor)$'/>
+       		<PALAVRA_CHAVE VALOR='Transolímpica' POSIX='(Transolímpica .*|Transolímpica&lt;.*|Transolímpica)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessa' POSIX='(Travessa .*|Travessa&lt;.*|Travessa)$'/>
+       		<PALAVRA_CHAVE VALOR='Trincheira' POSIX='(Trincheira .*|Trincheira&lt;.*|Trincheira)$'/>
+       		<PALAVRA_CHAVE VALOR='Túnel' POSIX='(T[uú]nel .*|T[uú]nel&lt;.*|T[uú]nel)$'/>
+       		<PALAVRA_CHAVE VALOR='Via' POSIX='(Via .*|Via&lt;.*|Via)$'/>
+       		<PALAVRA_CHAVE VALOR='Viaduto' POSIX='(Viaduto .*|Viaduto&lt;.*|Viaduto)$'/>
+       		<PALAVRA_CHAVE VALOR='Vila' POSIX='(Vila .*|Vila&lt;.*|Vila)$'/>
+   	</PALAVRAS_CHAVE>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='.* Dr' POSIX='(.* Dr .*|.* Dr&lt;.*|.* Dr)$'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=secondary'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='46'/>
+    	<ESTILO VALOR='7'/>
+    	<COR VALOR='16107520'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='F'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='V'/>
+    	<DESCRICAO VALOR='Riacho ou Córrego'/>
+    	<CODIGO_GARMIN VALOR='26'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='0'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483721'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Arroio' POSIX='Arroio.*'/>
+       		<PALAVRA_CHAVE VALOR='Córrego' POSIX='C[oó]rrego.*'/>
+       		<PALAVRA_CHAVE VALOR='Igarapé' POSIX='Igarap[eé].*'/>
+       		<PALAVRA_CHAVE VALOR='Riacho' POSIX='Riacho.*'/>
+       		<PALAVRA_CHAVE VALOR='Ribeirão' POSIX='Ribeir[aã]o.*'/>
+       		<PALAVRA_CHAVE VALOR='Rio' POSIX='Rio.*'/>
+       		<PALAVRA_CHAVE VALOR='Sanga' POSIX='Sanga.*'/>
+       		<PALAVRA_CHAVE VALOR='Valão' POSIX='Valão.*'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='waterway=stream'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='47'/>
+    	<ESTILO VALOR='2'/>
+    	<COR VALOR='0'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='1'/>
+    	<VEL VALOR='2'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Rua Pavimentada Principal, Pista Auxiliar de Rodovia ou Estrada Municipal'/>
+    	<CODIGO_GARMIN VALOR='4'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='2'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483658'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acesso' POSIX='(Acesso .*|Acesso&lt;.*|Acesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Agulha' POSIX='(Agulha .*|Agulha&lt;.*|Agulha)$'/>
+       		<PALAVRA_CHAVE VALOR='Alameda' POSIX='(Alameda .*|Alameda&lt;.*|Alameda)$'/>
+       		<PALAVRA_CHAVE VALOR='Alça' POSIX='(Al[cç]a .*|Al[cç]a&lt;.*|Al[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Anel' POSIX='(Anel .*|Anel&lt;.*|Anel)$'/>
+       		<PALAVRA_CHAVE VALOR='Atalho' POSIX='(Atalho .*|Atalho&lt;.*|Atalho)$'/>
+       		<PALAVRA_CHAVE VALOR='Avenida' POSIX='(Avenida .*|Avenida&lt;.*|Avenida)$'/>
+       		<PALAVRA_CHAVE VALOR='Boulevard' POSIX='(Boulevard .*|Boulevard&lt;.*|Boulevard)$'/>
+       		<PALAVRA_CHAVE VALOR='Complexo' POSIX='(Complexo .*|Complexo&lt;.*|Complexo)$'/>
+       		<PALAVRA_CHAVE VALOR='Contorno' POSIX='(Contorno .*|Contorno&lt;.*|Contorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Corredor' POSIX='(Corredor .*|Corredor&lt;.*|Corredor)$'/>
+       		<PALAVRA_CHAVE VALOR='Curva' POSIX='(Curva .*|Curva&lt;.*|Curva)$'/>
+       		<PALAVRA_CHAVE VALOR='Estrada' POSIX='(Estrada .*|Estrada&lt;.*|Estrada)$'/>
+       		<PALAVRA_CHAVE VALOR='Ladeira' POSIX='(Ladeira .*|Ladeira&lt;.*|Ladeira)$'/>
+       		<PALAVRA_CHAVE VALOR='Largo' POSIX='(Largo .*|Largo&lt;.*|Largo)$'/>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='(Linha .*|Linha&lt;.*|Linha)$'/>
+       		<PALAVRA_CHAVE VALOR='Marginal' POSIX='(Marginal .*|Marginal&lt;.*|Marginal)$'/>
+       		<PALAVRA_CHAVE VALOR='Mergulhão' POSIX='(Mergulh[aã]o .*|Mergulh[aã]o&lt;.*|Mergulh[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Parque' POSIX='(Parque .*|Parque&lt;.*|Parque)$'/>
+       		<PALAVRA_CHAVE VALOR='Passagem' POSIX='(Passagem .*|Passagem&lt;.*|Passagem)$'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='(Pista .*|Pista&lt;.*|Pista)$'/>
+       		<PALAVRA_CHAVE VALOR='Ponte' POSIX='(Ponte .*|Ponte&lt;.*|Ponte)$'/>
+       		<PALAVRA_CHAVE VALOR='Praça' POSIX='(Pra[cç]a .*|Pra[cç]a&lt;.*|Pra[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Praia' POSIX='(Praia .*|Praia&lt;.*|Praia)$'/>
+       		<PALAVRA_CHAVE VALOR='Quadra' POSIX='(Quadra .*|Quadra&lt;.*|Quadra)$'/>
+       		<PALAVRA_CHAVE VALOR='Retorno' POSIX='(Retorno .*|Retorno&lt;.*|Retorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Rodoanel' POSIX='(Rodoanel .*|Rodoanel&lt;.*|Rodoanel)$'/>
+       		<PALAVRA_CHAVE VALOR='Rodovia' POSIX='(Rodovia .*|Rodovia&lt;.*|Rodovia)$'/>
+       		<PALAVRA_CHAVE VALOR='Rotatória' POSIX='(Rotat[oó]ria .*|Rotat[oó]ria&lt;.*|Rotat[oó]ria)$'/>
+       		<PALAVRA_CHAVE VALOR='Rótula' POSIX='(R[oó]tula .*|R[oó]tula&lt;.*|R[oó]tula)$'/>
+       		<PALAVRA_CHAVE VALOR='Rua' POSIX='(Rua .*|Rua&lt;.*|Rua)$'/>
+       		<PALAVRA_CHAVE VALOR='Saída' POSIX='(Sa[ií]da .*|Sa[ií]da&lt;.*|Sa[ií]da)$'/>
+       		<PALAVRA_CHAVE VALOR='Setor' POSIX='(Setor .*|Setor&lt;.*|Setor)$'/>
+       		<PALAVRA_CHAVE VALOR='Tifa' POSIX='(Tifa .*|Tifa&lt;.*|Tifa)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessa' POSIX='(Travessa .*|Travessa&lt;.*|Travessa)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessão' POSIX='(Travess[aã]o .*|Travess[aã]o&lt;.*|Travess[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Trincheira' POSIX='(Trincheira .*|Trincheira&lt;.*|Trincheira)$'/>
+       		<PALAVRA_CHAVE VALOR='Túnel' POSIX='(T[uú]nel .*|T[uú]nel&lt;.*|T[uú]nel)$'/>
+       		<PALAVRA_CHAVE VALOR='Via' POSIX='(Via .*|Via&lt;.*|Via)$'/>
+       		<PALAVRA_CHAVE VALOR='Viaduto' POSIX='(Viaduto .*|Viaduto&lt;.*|Viaduto)$'/>
+       		<PALAVRA_CHAVE VALOR='[A-Z]{2,3}-[0-9]{3}[^0-9]?' POSIX='[A-Z]{2,3}-[0-9]{3}[^0-9]?.*'/>
+   	</PALAVRAS_CHAVE>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='.* Dr' POSIX='(.* Dr .*|.* Dr&lt;.*|.* Dr)$'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=tertiary'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='48'/>
+    	<ESTILO VALOR='1'/>
+    	<COR VALOR='0'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='0'/>
+    	<VEL VALOR='2'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Rua Pavimentada Secundária'/>
+    	<CODIGO_GARMIN VALOR='6'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483657'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acesso' POSIX='(Acesso .*|Acesso&lt;.*|Acesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Agulha' POSIX='(Agulha .*|Agulha&lt;.*|Agulha)$'/>
+       		<PALAVRA_CHAVE VALOR='Alameda' POSIX='(Alameda .*|Alameda&lt;.*|Alameda)$'/>
+       		<PALAVRA_CHAVE VALOR='Atalho' POSIX='(Atalho .*|Atalho&lt;.*|Atalho)$'/>
+       		<PALAVRA_CHAVE VALOR='Avenida' POSIX='(Avenida .*|Avenida&lt;.*|Avenida)$'/>
+       		<PALAVRA_CHAVE VALOR='Balão' POSIX='(Bal[aã]o .*|Bal[aã]o&lt;.*|Bal[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Beco' POSIX='(Beco .*|Beco&lt;.*|Beco)$'/>
+       		<PALAVRA_CHAVE VALOR='Bloco' POSIX='(Bloco .*|Bloco&lt;.*|Bloco)$'/>
+       		<PALAVRA_CHAVE VALOR='Boulevard' POSIX='(Boulevard .*|Boulevard&lt;.*|Boulevard)$'/>
+       		<PALAVRA_CHAVE VALOR='Caminho' POSIX='(Caminho .*|Caminho&lt;.*|Caminho)$'/>
+       		<PALAVRA_CHAVE VALOR='Campo' POSIX='(Campo .*|Campo&lt;.*|Campo)$'/>
+       		<PALAVRA_CHAVE VALOR='ciclofaixa' POSIX='(ciclofaixa .*|ciclofaixa&lt;.*|ciclofaixa)$'/>
+       		<PALAVRA_CHAVE VALOR='Complexo' POSIX='(Complexo .*|Complexo&lt;.*|Complexo)$'/>
+       		<PALAVRA_CHAVE VALOR='Corredor' POSIX='(Corredor .*|Corredor&lt;.*|Corredor)$'/>
+       		<PALAVRA_CHAVE VALOR='Desvio' POSIX='(Desvio .*|Desvio&lt;.*|Desvio)$'/>
+       		<PALAVRA_CHAVE VALOR='Estrada' POSIX='(Estrada .*|Estrada&lt;.*|Estrada)$'/>
+       		<PALAVRA_CHAVE VALOR='Grota' POSIX='(Grota .*|Grota&lt;.*|Grota)$'/>
+       		<PALAVRA_CHAVE VALOR='Jardim' POSIX='(Jardim .*|Jardim&lt;.*|Jardim)$'/>
+       		<PALAVRA_CHAVE VALOR='Ladeira' POSIX='(Ladeira .*|Ladeira&lt;.*|Ladeira)$'/>
+       		<PALAVRA_CHAVE VALOR='Largo' POSIX='(Largo .*|Largo&lt;.*|Largo)$'/>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='(Linha .*|Linha&lt;.*|Linha)$'/>
+       		<PALAVRA_CHAVE VALOR='Loteamento' POSIX='(Loteamento .*|Loteamento&lt;.*|Loteamento)$'/>
+       		<PALAVRA_CHAVE VALOR='Marginal' POSIX='(Marginal .*|Marginal&lt;.*|Marginal)$'/>
+       		<PALAVRA_CHAVE VALOR='Mergulhão' POSIX='(Mergulh[aã]o .*|Mergulh[aã]o&lt;.*|Mergulh[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Parque' POSIX='(Parque .*|Parque&lt;.*|Parque)$'/>
+       		<PALAVRA_CHAVE VALOR='Passagem' POSIX='(Passagem .*|Passagem&lt;.*|Passagem)$'/>
+       		<PALAVRA_CHAVE VALOR='Passeio' POSIX='(Passeio .*|Passeio&lt;.*|Passeio)$'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='(Pista .*|Pista&lt;.*|Pista)$'/>
+       		<PALAVRA_CHAVE VALOR='Ponte' POSIX='(Ponte .*|Ponte&lt;.*|Ponte)$'/>
+       		<PALAVRA_CHAVE VALOR='Praça' POSIX='(Pra[cç]a .*|Pra[cç]a&lt;.*|Pra[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Praia' POSIX='(Praia .*|Praia&lt;.*|Praia)$'/>
+       		<PALAVRA_CHAVE VALOR='Quadra' POSIX='(Quadra .*|Quadra&lt;.*|Quadra)$'/>
+       		<PALAVRA_CHAVE VALOR='Ramal' POSIX='(Ramal .*|Ramal&lt;.*|Ramal)$'/>
+       		<PALAVRA_CHAVE VALOR='Retorno' POSIX='(Retorno .*|Retorno&lt;.*|Retorno)$'/>
+       		<PALAVRA_CHAVE VALOR='Rotatória' POSIX='(Rotat[oó]ria .*|Rotat[oó]ria&lt;.*|Rotat[oó]ria)$'/>
+       		<PALAVRA_CHAVE VALOR='Rua' POSIX='(Rua .*|Rua&lt;.*|Rua)$'/>
+       		<PALAVRA_CHAVE VALOR='Saída' POSIX='(Sa[ií]da .*|Sa[ií]da&lt;.*|Sa[ií]da)$'/>
+       		<PALAVRA_CHAVE VALOR='Servidão' POSIX='(Servid[aã]o .*|Servid[aã]o&lt;.*|Servid[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Setor' POSIX='(Setor .*|Setor&lt;.*|Setor)$'/>
+       		<PALAVRA_CHAVE VALOR='Subida' POSIX='(Subida .*|Subida&lt;.*|Subida)$'/>
+       		<PALAVRA_CHAVE VALOR='Terminal' POSIX='(Terminal .*|Terminal&lt;.*|Terminal)$'/>
+       		<PALAVRA_CHAVE VALOR='Tifa' POSIX='(Tifa .*|Tifa&lt;.*|Tifa)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessa' POSIX='(Travessa .*|Travessa&lt;.*|Travessa)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessão' POSIX='(Travess[aã]o .*|Travess[aã]o&lt;.*|Travess[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Trekking' POSIX='(Trekking .*|Trekking&lt;.*|Trekking)$'/>
+       		<PALAVRA_CHAVE VALOR='Túnel' POSIX='(T[uú]nel .*|T[uú]nel&lt;.*|T[uú]nel)$'/>
+       		<PALAVRA_CHAVE VALOR='Via' POSIX='(Via .*|Via&lt;.*|Via)$'/>
+       		<PALAVRA_CHAVE VALOR='Viaduto' POSIX='(Viaduto .*|Viaduto&lt;.*|Viaduto)$'/>
+       		<PALAVRA_CHAVE VALOR='Viela' POSIX='(Viela .*|Viela&lt;.*|Viela)$'/>
+       		<PALAVRA_CHAVE VALOR='Vila' POSIX='(Vila .*|Vila&lt;.*|Vila)$'/>
+   	</PALAVRAS_CHAVE>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='.* Dr' POSIX='(.* Dr .*|.* Dr&lt;.*|.* Dr)$'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=residential'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='49'/>
+    	<ESTILO VALOR='1'/>
+    	<COR VALOR='128'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	<RC VALOR='0'/>
+    	<VEL VALOR='1'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Estrada de Terra Vicinal ou Rua Secundária Não Pavimentada'/>
+    	<CODIGO_GARMIN VALOR='A'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483700'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acesso' POSIX='(Acesso .*|Acesso&lt;.*|Acesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Alameda' POSIX='(Alameda .*|Alameda&lt;.*|Alameda)$'/>
+       		<PALAVRA_CHAVE VALOR='Atalho' POSIX='(Atalho .*|Atalho&lt;.*|Atalho)$'/>
+       		<PALAVRA_CHAVE VALOR='Avenida' POSIX='(Avenida .*|Avenida&lt;.*|Avenida)$'/>
+       		<PALAVRA_CHAVE VALOR='Balão' POSIX='(Bal[aã]o .*|Bal[aã]o&lt;.*|Bal[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Beco' POSIX='(Beco .*|Beco&lt;.*|Beco)$'/>
+       		<PALAVRA_CHAVE VALOR='Bloco' POSIX='(Bloco .*|Bloco&lt;.*|Bloco)$'/>
+       		<PALAVRA_CHAVE VALOR='Caminho' POSIX='(Caminho .*|Caminho&lt;.*|Caminho)$'/>
+       		<PALAVRA_CHAVE VALOR='Campo' POSIX='(Campo .*|Campo&lt;.*|Campo)$'/>
+       		<PALAVRA_CHAVE VALOR='Corredor' POSIX='(Corredor .*|Corredor&lt;.*|Corredor)$'/>
+       		<PALAVRA_CHAVE VALOR='Desvio' POSIX='(Desvio .*|Desvio&lt;.*|Desvio)$'/>
+       		<PALAVRA_CHAVE VALOR='Estrada' POSIX='(Estrada .*|Estrada&lt;.*|Estrada)$'/>
+       		<PALAVRA_CHAVE VALOR='Grota' POSIX='(Grota .*|Grota&lt;.*|Grota)$'/>
+       		<PALAVRA_CHAVE VALOR='Jardim' POSIX='(Jardim .*|Jardim&lt;.*|Jardim)$'/>
+       		<PALAVRA_CHAVE VALOR='Ladeira' POSIX='(Ladeira .*|Ladeira&lt;.*|Ladeira)$'/>
+       		<PALAVRA_CHAVE VALOR='Largo' POSIX='(Largo .*|Largo&lt;.*|Largo)$'/>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='(Linha .*|Linha&lt;.*|Linha)$'/>
+       		<PALAVRA_CHAVE VALOR='Loteamento' POSIX='(Loteamento .*|Loteamento&lt;.*|Loteamento)$'/>
+       		<PALAVRA_CHAVE VALOR='Parque' POSIX='(Parque .*|Parque&lt;.*|Parque)$'/>
+       		<PALAVRA_CHAVE VALOR='Passagem' POSIX='(Passagem .*|Passagem&lt;.*|Passagem)$'/>
+       		<PALAVRA_CHAVE VALOR='Passeio' POSIX='(Passeio .*|Passeio&lt;.*|Passeio)$'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='(Pista .*|Pista&lt;.*|Pista)$'/>
+       		<PALAVRA_CHAVE VALOR='Ponte' POSIX='(Ponte .*|Ponte&lt;.*|Ponte)$'/>
+       		<PALAVRA_CHAVE VALOR='Praça' POSIX='(Pra[cç]a .*|Pra[cç]a&lt;.*|Pra[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Praia' POSIX='(Praia .*|Praia&lt;.*|Praia)$'/>
+       		<PALAVRA_CHAVE VALOR='Quadra' POSIX='(Quadra .*|Quadra&lt;.*|Quadra)$'/>
+       		<PALAVRA_CHAVE VALOR='Ramal' POSIX='(Ramal .*|Ramal&lt;.*|Ramal)$'/>
+       		<PALAVRA_CHAVE VALOR='Rodovia' POSIX='(Rodovia .*|Rodovia&lt;.*|Rodovia)$'/>
+       		<PALAVRA_CHAVE VALOR='Rua' POSIX='(Rua .*|Rua&lt;.*|Rua)$'/>
+       		<PALAVRA_CHAVE VALOR='Saída' POSIX='(Sa[ií]da .*|Sa[ií]da&lt;.*|Sa[ií]da)$'/>
+       		<PALAVRA_CHAVE VALOR='Servidão' POSIX='(Servid[aã]o .*|Servid[aã]o&lt;.*|Servid[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Setor' POSIX='(Setor .*|Setor&lt;.*|Setor)$'/>
+       		<PALAVRA_CHAVE VALOR='Subida' POSIX='(Subida .*|Subida&lt;.*|Subida)$'/>
+       		<PALAVRA_CHAVE VALOR='Term' POSIX='(Term .*|Term&lt;.*|Term)$'/>
+       		<PALAVRA_CHAVE VALOR='Terminal' POSIX='(Terminal .*|Terminal&lt;.*|Terminal)$'/>
+       		<PALAVRA_CHAVE VALOR='Terra' POSIX='(Terra .*|Terra&lt;.*|Terra)$'/>
+       		<PALAVRA_CHAVE VALOR='Tifa' POSIX='(Tifa .*|Tifa&lt;.*|Tifa)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessa' POSIX='(Travessa .*|Travessa&lt;.*|Travessa)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessão' POSIX='(Travess[aã]o .*|Travess[aã]o&lt;.*|Travess[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Trilha' POSIX='(Trilha .*|Trilha&lt;.*|Trilha)$'/>
+       		<PALAVRA_CHAVE VALOR='Túnel' POSIX='(T[uú]nel .*|T[uú]nel&lt;.*|T[uú]nel)$'/>
+       		<PALAVRA_CHAVE VALOR='Via' POSIX='(Via .*|Via&lt;.*|Via)$'/>
+       		<PALAVRA_CHAVE VALOR='Viela' POSIX='(Viela .*|Viela&lt;.*|Viela)$'/>
+       		<PALAVRA_CHAVE VALOR='Vila' POSIX='(Vila .*|Vila&lt;.*|Vila)$'/>
+   	</PALAVRAS_CHAVE>
+    	<COMENTARIOS_NAO_ACEITO>
+       		<COMENTARIO_NAO_ACEITO VALOR='.* Dr' POSIX='(.* Dr .*|.* Dr&lt;.*|.* Dr)$'/>
+   	</COMENTARIOS_NAO_ACEITO>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=unclassified'/>
+       		<TAG_OSM VALOR='surface=unpaved'/>
+    	</OSM>
+	</REGRA>
+	<REGRA>
+    	<ID VALOR='24'/>
+    	<ESTILO VALOR='1'/>
+    	<COR VALOR='4227327'/>
+        <TAG_DEFINIDORA VALOR='' />
+    	<TIPO VALOR='l'/>
+    	<USO_ROTEAVEL VALOR='V'/>
+    	   <NTA />
+    	   <NTB />
+    	   <NTC />
+    	   <NTE />
+    	   <NTF />
+    	   <NTT />
+    	<RC VALOR='0'/>
+    	<VEL VALOR='0'/>
+    	<USO_NAUTICO VALOR='F'/>
+    	<USO_TOPO VALOR='F'/>
+    	<DESCRICAO VALOR='Calçadão, Via de Pedestre, Ciclovia ou Trilha de Caminhada'/>
+    	<CODIGO_GARMIN VALOR='16'/>
+    	<RGN_PMF VALOR='40'/>
+    	<ZOOM VALOR='1'/>
+    	<NAVIT_ITEM_DEF VALOR='2147483690'/>
+    	<PALAVRAS_CHAVE>
+       		<PALAVRA_CHAVE VALOR='Acesso' POSIX='(Acesso .*|Acesso&lt;.*|Acesso)$'/>
+       		<PALAVRA_CHAVE VALOR='Alameda' POSIX='(Alameda .*|Alameda&lt;.*|Alameda)$'/>
+       		<PALAVRA_CHAVE VALOR='Atalho' POSIX='(Atalho .*|Atalho&lt;.*|Atalho)$'/>
+       		<PALAVRA_CHAVE VALOR='Avenida' POSIX='(Avenida .*|Avenida&lt;.*|Avenida)$'/>
+       		<PALAVRA_CHAVE VALOR='Balão' POSIX='(Bal[aã]o .*|Bal[aã]o&lt;.*|Bal[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Beco' POSIX='(Beco .*|Beco&lt;.*|Beco)$'/>
+       		<PALAVRA_CHAVE VALOR='Bike' POSIX='(Bike .*|Bike&lt;.*|Bike)$'/>
+       		<PALAVRA_CHAVE VALOR='Bloco' POSIX='(Bloco .*|Bloco&lt;.*|Bloco)$'/>
+       		<PALAVRA_CHAVE VALOR='Calçadão' POSIX='(Cal[cç]ad[aã]o .*|Cal[cç]ad[aã]o&lt;.*|Cal[cç]ad[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Caminho' POSIX='(Caminho .*|Caminho&lt;.*|Caminho)$'/>
+       		<PALAVRA_CHAVE VALOR='Campo' POSIX='(Campo .*|Campo&lt;.*|Campo)$'/>
+       		<PALAVRA_CHAVE VALOR='Ciclovia' POSIX='(Ciclovia .*|Ciclovia&lt;.*|Ciclovia)$'/>
+       		<PALAVRA_CHAVE VALOR='Dunas' POSIX='(Dunas .*|Dunas&lt;.*|Dunas)$'/>
+       		<PALAVRA_CHAVE VALOR='Escada' POSIX='(Escada .*|Escada&lt;.*|Escada)$'/>
+       		<PALAVRA_CHAVE VALOR='Escadaria' POSIX='(Escadaria .*|Escadaria&lt;.*|Escadaria)$'/>
+       		<PALAVRA_CHAVE VALOR='Estrada' POSIX='(Estrada .*|Estrada&lt;.*|Estrada)$'/>
+       		<PALAVRA_CHAVE VALOR='Galeria' POSIX='(Galeria .*|Galeria&lt;.*|Galeria)$'/>
+       		<PALAVRA_CHAVE VALOR='Grota' POSIX='(Grota .*|Grota&lt;.*|Grota)$'/>
+       		<PALAVRA_CHAVE VALOR='Jardim' POSIX='(Jardim .*|Jardim&lt;.*|Jardim)$'/>
+       		<PALAVRA_CHAVE VALOR='Ladeira' POSIX='(Ladeira .*|Ladeira&lt;.*|Ladeira)$'/>
+       		<PALAVRA_CHAVE VALOR='Largo' POSIX='(Largo .*|Largo&lt;.*|Largo)$'/>
+       		<PALAVRA_CHAVE VALOR='Linha' POSIX='(Linha .*|Linha&lt;.*|Linha)$'/>
+       		<PALAVRA_CHAVE VALOR='Loteamento' POSIX='(Loteamento .*|Loteamento&lt;.*|Loteamento)$'/>
+       		<PALAVRA_CHAVE VALOR='Marginal' POSIX='(Marginal .*|Marginal&lt;.*|Marginal)$'/>
+       		<PALAVRA_CHAVE VALOR='Parque' POSIX='(Parque .*|Parque&lt;.*|Parque)$'/>
+       		<PALAVRA_CHAVE VALOR='Passagem' POSIX='(Passagem .*|Passagem&lt;.*|Passagem)$'/>
+       		<PALAVRA_CHAVE VALOR='Passarela' POSIX='(Passarela .*|Passarela&lt;.*|Passarela)$'/>
+       		<PALAVRA_CHAVE VALOR='Passeio' POSIX='(Passeio .*|Passeio&lt;.*|Passeio)$'/>
+       		<PALAVRA_CHAVE VALOR='Pista' POSIX='(Pista .*|Pista&lt;.*|Pista)$'/>
+       		<PALAVRA_CHAVE VALOR='Ponte' POSIX='(Ponte .*|Ponte&lt;.*|Ponte)$'/>
+       		<PALAVRA_CHAVE VALOR='Praça' POSIX='(Pra[cç]a .*|Pra[cç]a&lt;.*|Pra[cç]a)$'/>
+       		<PALAVRA_CHAVE VALOR='Praia' POSIX='(Praia .*|Praia&lt;.*|Praia)$'/>
+       		<PALAVRA_CHAVE VALOR='Quadra' POSIX='(Quadra .*|Quadra&lt;.*|Quadra)$'/>
+       		<PALAVRA_CHAVE VALOR='Rampa' POSIX='(Rampa .*|Rampa&lt;.*|Rampa)$'/>
+       		<PALAVRA_CHAVE VALOR='Rua' POSIX='(Rua .*|Rua&lt;.*|Rua)$'/>
+       		<PALAVRA_CHAVE VALOR='Saída' POSIX='(Sa[ií]da .*|Sa[ií]da&lt;.*|Sa[ií]da)$'/>
+       		<PALAVRA_CHAVE VALOR='Servidão' POSIX='(Servid[aã]o .*|Servid[aã]o&lt;.*|Servid[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Subida' POSIX='(Subida .*|Subida&lt;.*|Subida)$'/>
+       		<PALAVRA_CHAVE VALOR='Terminal' POSIX='(Terminal .*|Terminal&lt;.*|Terminal)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessa' POSIX='(Travessa .*|Travessa&lt;.*|Travessa)$'/>
+       		<PALAVRA_CHAVE VALOR='Travessão' POSIX='(Travess[aã]o .*|Travess[aã]o&lt;.*|Travess[aã]o)$'/>
+       		<PALAVRA_CHAVE VALOR='Trekking' POSIX='(Trekking .*|Trekking&lt;.*|Trekking)$'/>
+       		<PALAVRA_CHAVE VALOR='Trilha' POSIX='(Trilha .*|Trilha&lt;.*|Trilha)$'/>
+       		<PALAVRA_CHAVE VALOR='Trilha' POSIX='(Trilha .*|Trilha&lt;.*|Trilha)$'/>
+       		<PALAVRA_CHAVE VALOR='Túnel' POSIX='(T[uú]nel .*|T[uú]nel&lt;.*|T[uú]nel)$'/>
+       		<PALAVRA_CHAVE VALOR='Via' POSIX='(Via .*|Via&lt;.*|Via)$'/>
+       		<PALAVRA_CHAVE VALOR='Viaduto' POSIX='(Viaduto .*|Viaduto&lt;.*|Viaduto)$'/>
+       		<PALAVRA_CHAVE VALOR='Viela' POSIX='(Viela .*|Viela&lt;.*|Viela)$'/>
+       		<PALAVRA_CHAVE VALOR='Vila' POSIX='(Vila .*|Vila&lt;.*|Vila)$'/>
+   	</PALAVRAS_CHAVE>
+    	<OSM>
+       		<TAG_OSM VALOR='highway=pedestrian'/>
+       		<TAG_OSM VALOR='foot=yes'/>
+       		<TAG_OSM VALOR='bicycle=yes'/>
+    	</OSM>
+	</REGRA>
+</BASE_TRACKS>
