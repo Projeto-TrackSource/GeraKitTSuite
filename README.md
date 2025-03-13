@@ -31,7 +31,7 @@ A utilização é muito simples. Existem apenas duas opções, além do Sair, no
 - Gerar Kit: se todos os parâmetros tiverem sido configurados corretamente, irá gerar os kits.
 
 ## Como configurar?
-Seguem minhas configurações que podem servir de base para vocês configurarem para o seu ambiente:
+Seguem configurações de exemplo:
 ![Exemplo](./Config_example.png)
 
 ## O que mudou no SVN?
