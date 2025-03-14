@@ -3,11 +3,6 @@
 	<PASTA_TSUITE_ATUALIZADO VALOR="D:\Usuarios\Alexandre\Documents\NetBeansProjects\TrackSource\tsuite\store"/>
 	<PASTA_DESTINO_POIS_TRACKS_XML VALOR="D:\Usuarios\Alexandre\Documents\NetBeansProjects\TrackSource\tsuite\src\br\org\tracksource\tsuite\validador"/>
 	<PASTA_DESTINO_TABELA_MUNICIPIOS_XML VALOR="D:\Usuarios\Alexandre\Documents\NetBeansProjects\TrackSource\tsuite\src\br\org\tracksource\tsuite\dominio"/>
-	<PROGUARD_EXE VALOR="D:\Usuarios\Alexandre\Documents\NetBeansProjects\TrackSource\tsuite\ofuscador\proguard.jar"/>
-	<PROGUARD_PRO VALOR="D:\Usuarios\Alexandre\Documents\NetBeansProjects\TrackSource\tsuite\instalador\xandao_windows_tsuite.pro"/>
-	<PROGUARD_DICTIONARY_PKG VALOR="D:\Usuarios\Alexandre\Documents\NetBeansProjects\TrackSource\tsuite\ofuscador\proguard_dictionary_pkg.txt"/>
-	<PROGUARD_DICTIONARY_CLASS VALOR="D:\Usuarios\Alexandre\Documents\NetBeansProjects\TrackSource\tsuite\ofuscador\proguard_dictionary_class.txt"/>
-	<PROGUARD_DICTIONARY VALOR="D:\Usuarios\Alexandre\Documents\NetBeansProjects\TrackSource\tsuite\ofuscador\proguard_dictionary.txt"/>
 	<TSUITE_ISS VALOR="D:\Usuarios\Alexandre\Documents\NetBeansProjects\TrackSource\tsuite\instalador\TSuite.iss"/>
 	<INNO_SETUP_EXE VALOR="C:\Program Files (x86)\Inno Setup 5\ISCC.exe"/>
 </CONFIGURACOES>

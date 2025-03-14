@@ -7,16 +7,12 @@
 package br.org.tracksource.gerakittsuite;
 
 import br.org.tracksource.gerakittsuite.filtros.*;
-import br.org.tracksource.gerakittsuite.Configuracoes;
-import br.org.tracksource.gerakittsuite.GeraKitTSuite;
-import br.org.tracksource.gerakittsuite.Util;
 import java.awt.Dimension;
 import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.io.File;
-import java.util.Map;
 import javax.swing.AbstractAction;
 import javax.swing.JComponent;
 import javax.swing.JFileChooser;
@@ -67,11 +63,6 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
         this.txtPastaTSuiteAtualizado.setText(Configuracoes.strPastaTSuiteAtualizado);
         this.txtPastaDestinoPoisTracksXml.setText(Configuracoes.strPastaDestinoPoisTracksXml);
         this.txtPastaDestinoTabelaMunicipioXml.setText(Configuracoes.strPastaDestinoTabelaMunicipioXml);
-        this.txtProguard.setText(Configuracoes.strProguard);
-        this.txtProguardPro.setText(Configuracoes.strProguardPro);
-        this.txtProguardDictionaryPkg.setText(Configuracoes.strProguardDictionaryPkg);
-        this.txtProguardDictionaryClass.setText(Configuracoes.strProguardDictionaryClass);
-        this.txtProguardDictionary.setText(Configuracoes.strProguardDictionary);
         this.txtIssTSuite.setText(Configuracoes.strIssTSuite);
         this.txtInnoSetup.setText(Configuracoes.strInnoSetup);
 
@@ -104,18 +95,6 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
         jLabel16 = new javax.swing.JLabel();
         txtPastaDestinoTabelaMunicipioXml = new javax.swing.JTextField();
         btnPastaDestinoTabelaMunicipioXml = new javax.swing.JButton();
-        jLabel18 = new javax.swing.JLabel();
-        txtProguard = new javax.swing.JTextField();
-        btnProguard = new javax.swing.JButton();
-        jLabel20 = new javax.swing.JLabel();
-        txtProguardDictionaryPkg = new javax.swing.JTextField();
-        btnProguardDictionaryPkg = new javax.swing.JButton();
-        jLabel21 = new javax.swing.JLabel();
-        txtProguardDictionaryClass = new javax.swing.JTextField();
-        btnProguardDictionaryClass = new javax.swing.JButton();
-        jLabel22 = new javax.swing.JLabel();
-        txtProguardDictionary = new javax.swing.JTextField();
-        btnProguardDictionary = new javax.swing.JButton();
         jLabel23 = new javax.swing.JLabel();
         txtIssTSuite = new javax.swing.JTextField();
         btnIssTSuite = new javax.swing.JButton();
@@ -124,16 +103,12 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
         btnInnoSetup = new javax.swing.JButton();
         btnOK = new javax.swing.JButton();
         btnCancela = new javax.swing.JButton();
-        jSeparator3 = new javax.swing.JSeparator();
-        jLabel25 = new javax.swing.JLabel();
-        txtProguardPro = new javax.swing.JTextField();
-        btnProguardDictionaryPro = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Configuracoes");
         setLocationByPlatform(true);
-        setMinimumSize(new java.awt.Dimension(598, 607));
-        setPreferredSize(new java.awt.Dimension(598, 607));
+        setMinimumSize(new java.awt.Dimension(595, 350));
+        setPreferredSize(new java.awt.Dimension(595, 350));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel2.setMinimumSize(new java.awt.Dimension(580, 567));
@@ -144,6 +119,7 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
         jLabel15.setText("Pasta da localização do TSuite.jar atualizado:");
         jPanel2.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
+        txtPastaTSuiteAtualizado.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         txtPastaTSuiteAtualizado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPastaTSuiteAtualizadoActionPerformed(evt);
@@ -159,13 +135,14 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
             }
         });
         jPanel2.add(btnPastaTSuiteAtualizado, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 30, -1, 20));
-        jPanel2.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 530, 580, 10));
+        jPanel2.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 270, 580, 10));
         jPanel2.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 160, 580, 10));
 
         jLabel17.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
         jLabel17.setText("Pasta de destino do Pois.xml e Tracks.xml:");
         jPanel2.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, -1, -1));
 
+        txtPastaDestinoPoisTracksXml.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         txtPastaDestinoPoisTracksXml.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPastaDestinoPoisTracksXmlActionPerformed(evt);
@@ -186,6 +163,7 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
         jLabel16.setText("Pasta de destino da Tabela_Municipios.xml:");
         jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
 
+        txtPastaDestinoTabelaMunicipioXml.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         txtPastaDestinoTabelaMunicipioXml.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPastaDestinoTabelaMunicipioXmlActionPerformed(evt);
@@ -202,96 +180,17 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
         });
         jPanel2.add(btnPastaDestinoTabelaMunicipioXml, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 130, -1, 20));
 
-        jLabel18.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
-        jLabel18.setText("Caminho completo para o ProGuard:");
-        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, -1));
-
-        txtProguard.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtProguardActionPerformed(evt);
-            }
-        });
-        jPanel2.add(txtProguard, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 470, -1));
-
-        btnProguard.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
-        btnProguard.setText("Procurar...");
-        btnProguard.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnProguard_Clicked(evt);
-            }
-        });
-        jPanel2.add(btnProguard, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 190, -1, 20));
-
-        jLabel20.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
-        jLabel20.setText("Caminho completo para o ProGuard Dictionary Package:");
-        jPanel2.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
-
-        txtProguardDictionaryPkg.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtProguardDictionaryPkgActionPerformed(evt);
-            }
-        });
-        jPanel2.add(txtProguardDictionaryPkg, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, 470, -1));
-
-        btnProguardDictionaryPkg.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
-        btnProguardDictionaryPkg.setText("Procurar...");
-        btnProguardDictionaryPkg.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnProguardDictionaryPkg_Clicked(evt);
-            }
-        });
-        jPanel2.add(btnProguardDictionaryPkg, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 290, -1, 20));
-
-        jLabel21.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
-        jLabel21.setText("Caminho completo para o ProGuard Dictionary Class:");
-        jPanel2.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 320, -1, -1));
-
-        txtProguardDictionaryClass.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtProguardDictionaryClassActionPerformed(evt);
-            }
-        });
-        jPanel2.add(txtProguardDictionaryClass, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 340, 470, -1));
-
-        btnProguardDictionaryClass.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
-        btnProguardDictionaryClass.setText("Procurar...");
-        btnProguardDictionaryClass.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnProguardDictionaryClass_Clicked(evt);
-            }
-        });
-        jPanel2.add(btnProguardDictionaryClass, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 340, -1, 20));
-
-        jLabel22.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
-        jLabel22.setText("Caminho completo para o ProGuard Dictionary (Geral):");
-        jPanel2.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, -1, -1));
-
-        txtProguardDictionary.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtProguardDictionaryActionPerformed(evt);
-            }
-        });
-        jPanel2.add(txtProguardDictionary, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, 470, -1));
-
-        btnProguardDictionary.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
-        btnProguardDictionary.setText("Procurar...");
-        btnProguardDictionary.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnProguardDictionary_Clicked(evt);
-            }
-        });
-        jPanel2.add(btnProguardDictionary, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 390, -1, 20));
-
         jLabel23.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
         jLabel23.setText("Caminho completo para o Inno Setup:");
-        jPanel2.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, -1, -1));
+        jPanel2.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 170, -1, -1));
 
+        txtIssTSuite.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         txtIssTSuite.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtIssTSuiteActionPerformed(evt);
             }
         });
-        jPanel2.add(txtIssTSuite, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 500, 470, -1));
+        jPanel2.add(txtIssTSuite, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 470, -1));
 
         btnIssTSuite.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
         btnIssTSuite.setText("Procurar...");
@@ -300,18 +199,19 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
                 btnIssTSuite_Clicked(evt);
             }
         });
-        jPanel2.add(btnIssTSuite, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 450, -1, 20));
+        jPanel2.add(btnIssTSuite, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 190, -1, 20));
 
         jLabel24.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
         jLabel24.setText("Caminho completo para o TSuite.iss:");
-        jPanel2.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 480, -1, -1));
+        jPanel2.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
 
+        txtInnoSetup.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         txtInnoSetup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtInnoSetupActionPerformed(evt);
             }
         });
-        jPanel2.add(txtInnoSetup, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 450, 470, -1));
+        jPanel2.add(txtInnoSetup, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 470, -1));
 
         btnInnoSetup.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
         btnInnoSetup.setText("Procurar...");
@@ -320,7 +220,7 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
                 btnInnoSetup_Clicked(evt);
             }
         });
-        jPanel2.add(btnInnoSetup, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, -1, 20));
+        jPanel2.add(btnInnoSetup, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 240, -1, 20));
 
         btnOK.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
         btnOK.setText("   OK   ");
@@ -329,7 +229,7 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
                 btnOK_Clicked(evt);
             }
         });
-        jPanel2.add(btnOK, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 540, -1, -1));
+        jPanel2.add(btnOK, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 280, -1, -1));
 
         btnCancela.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
         btnCancela.setText("Cancela");
@@ -338,30 +238,9 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
                 btnCancela_Clicked(evt);
             }
         });
-        jPanel2.add(btnCancela, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 540, -1, -1));
-        jPanel2.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, 420, 600, 10));
+        jPanel2.add(btnCancela, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 280, -1, -1));
 
-        jLabel25.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
-        jLabel25.setText("Caminho completo para o arquivo de configuração ProGuard do usuário:");
-        jPanel2.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 220, -1, -1));
-
-        txtProguardPro.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtProguardProActionPerformed(evt);
-            }
-        });
-        jPanel2.add(txtProguardPro, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 240, 470, -1));
-
-        btnProguardDictionaryPro.setFont(new java.awt.Font("Dialog", 0, 10)); // NOI18N
-        btnProguardDictionaryPro.setText("Procurar...");
-        btnProguardDictionaryPro.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnProguardDictionaryPro_Clicked(evt);
-            }
-        });
-        jPanel2.add(btnProguardDictionaryPro, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 240, -1, 20));
-
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 567));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 310));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -372,11 +251,6 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
             Configuracoes.strPastaTSuiteAtualizado = this.txtPastaTSuiteAtualizado.getText();
             Configuracoes.strPastaDestinoPoisTracksXml = this.txtPastaDestinoPoisTracksXml.getText();
             Configuracoes.strPastaDestinoTabelaMunicipioXml = this.txtPastaDestinoTabelaMunicipioXml.getText();
-            Configuracoes.strProguard = this.txtProguard.getText();
-            Configuracoes.strProguardPro = this.txtProguardPro.getText();
-            Configuracoes.strProguardDictionaryPkg = this.txtProguardDictionaryPkg.getText();
-            Configuracoes.strProguardDictionaryClass = this.txtProguardDictionaryClass.getText();
-            Configuracoes.strProguardDictionary = this.txtProguardDictionary.getText();
             Configuracoes.strIssTSuite = this.txtIssTSuite.getText();
             Configuracoes.strInnoSetup = this.txtInnoSetup.getText();
             ok = true;
@@ -421,68 +295,6 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
                       Configuracoes.strPastaDestinoTabelaMunicipioXml);
     }//GEN-LAST:event_btnPastaDestinoTabelaMunicipioXml_Clicked
 
-    private void txtProguardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtProguardActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtProguardActionPerformed
-
-    private void btnProguard_Clicked(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProguard_Clicked
-        procurarCaminhoArquivo(new FiltroDialogoSelecionarJAR(), 
-                            "Procurar programa ProGuard", 
-                            this.txtProguard, 
-                            Configuracoes.strProguard);
-    }//GEN-LAST:event_btnProguard_Clicked
-
-    private void txtProguardDictionaryPkgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtProguardDictionaryPkgActionPerformed
-        JFileChooser fc = new JFileChooser();
-        fc.setFileFilter(new FiltroDialogoSelecionarEXE());
-        fc.setAcceptAllFileFilterUsed(false);
-        fc.setDialogTitle("Procurar aplicativo TrackMaker");
-        fc.setApproveButtonText("Selecionar");
-        // Tenta identificar o diretorio Program Files
-        Map map = System.getenv();
-        String pfPath = (String) map.get("ProgramFiles");
-        if(pfPath != null){
-            File diretorio_inicial = new File(pfPath);
-            if(diretorio_inicial.exists())
-            fc.setCurrentDirectory(diretorio_inicial);
-        }
-        int retorno = fc.showOpenDialog(this);
-        if(retorno == JFileChooser.APPROVE_OPTION){
-            while(fc.getSelectedFile() == null); //soh Deus sabe porque getSelectedFile vem null e soh momentos depois de pressionado SAVE eh instanciado...
-            Configuracoes.commandTrackMaker = fc.getSelectedFile().getAbsolutePath();
-            this.txtPastaTSuiteAtualizado.setText(Configuracoes.commandTrackMaker);
-        }
-    }//GEN-LAST:event_txtProguardDictionaryPkgActionPerformed
-
-    private void btnProguardDictionaryPkg_Clicked(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProguardDictionaryPkg_Clicked
-        procurarCaminhoArquivo(new FiltroDialogoSelecionarTXT(), 
-                            "Procurar arquivo ProGuard Dictionary Package", 
-                            this.txtProguardDictionaryPkg, 
-                            Configuracoes.strProguardDictionaryPkg);
-    }//GEN-LAST:event_btnProguardDictionaryPkg_Clicked
-
-    private void txtProguardDictionaryClassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtProguardDictionaryClassActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtProguardDictionaryClassActionPerformed
-
-    private void btnProguardDictionaryClass_Clicked(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProguardDictionaryClass_Clicked
-        procurarCaminhoArquivo(new FiltroDialogoSelecionarTXT(), 
-                            "Procurar arquivo ProGuard Dictionary Class", 
-                            this.txtProguardDictionaryClass, 
-                            Configuracoes.strProguardDictionaryClass);
-    }//GEN-LAST:event_btnProguardDictionaryClass_Clicked
-
-    private void txtProguardDictionaryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtProguardDictionaryActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtProguardDictionaryActionPerformed
-
-    private void btnProguardDictionary_Clicked(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProguardDictionary_Clicked
-        procurarCaminhoArquivo(new FiltroDialogoSelecionarTXT(), 
-                            "Procurar arquivo ProGuard Dictionary", 
-                            this.txtProguardDictionary, 
-                            Configuracoes.strProguardDictionary);
-    }//GEN-LAST:event_btnProguardDictionary_Clicked
-
     private void txtIssTSuiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIssTSuiteActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtIssTSuiteActionPerformed
@@ -504,17 +316,6 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
                             this.txtIssTSuite, 
                             Configuracoes.strIssTSuite);
     }//GEN-LAST:event_btnInnoSetup_Clicked
-
-    private void txtProguardProActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtProguardProActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtProguardProActionPerformed
-
-    private void btnProguardDictionaryPro_Clicked(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProguardDictionaryPro_Clicked
-        procurarCaminhoArquivo(new FiltroDialogoSelecionarPRO(), 
-                            "Procurar arquivo de configuração ProGuard", 
-                            this.txtProguardPro, 
-                            Configuracoes.strProguardPro);
-    }//GEN-LAST:event_btnProguardDictionaryPro_Clicked
 
     private void procurarCaminhoArquivo(FileFilter filtro, String titulo, javax.swing.JTextField campoForm, String campoConfig) {
         JFileChooser fc = new JFileChooser();
@@ -572,35 +373,19 @@ public class DialogoConfiguracoes extends javax.swing.JDialog {
     private javax.swing.JButton btnPastaDestinoPoisTracksXml;
     private javax.swing.JButton btnPastaDestinoTabelaMunicipioXml;
     private javax.swing.JButton btnPastaTSuiteAtualizado;
-    private javax.swing.JButton btnProguard;
-    private javax.swing.JButton btnProguardDictionary;
-    private javax.swing.JButton btnProguardDictionaryClass;
-    private javax.swing.JButton btnProguardDictionaryPkg;
-    private javax.swing.JButton btnProguardDictionaryPro;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
-    private javax.swing.JSeparator jSeparator3;
     private javax.swing.JTextField txtInnoSetup;
     private javax.swing.JTextField txtIssTSuite;
     private javax.swing.JTextField txtPastaDestinoPoisTracksXml;
     private javax.swing.JTextField txtPastaDestinoTabelaMunicipioXml;
     private javax.swing.JTextField txtPastaTSuiteAtualizado;
-    private javax.swing.JTextField txtProguard;
-    private javax.swing.JTextField txtProguardDictionary;
-    private javax.swing.JTextField txtProguardDictionaryClass;
-    private javax.swing.JTextField txtProguardDictionaryPkg;
-    private javax.swing.JTextField txtProguardPro;
     // End of variables declaration//GEN-END:variables
     
 }

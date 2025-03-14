@@ -9,15 +9,10 @@
      2.1. para ...\tsuite\src\br\org\tracksource\tsuite\validador: pois.xml e tracks.xml
      2.2. para ...\tsuite\src\br\org\tracksource\tsuite\dominio: tabela_municipios.xml
      2.3. para ...\tsuite\instalador: base-AUXILIAR-BR.gtm e tsuite_update.xml
-3. Gera os dicionários palavras aleatórias para utilização no ofuscador ProGuard. Agora, para cada execução do GeraKitTSuite, um novo conjunto de palavras é gerado o que dificulta ainda mais a quebra do ofuscamente a cada versão do TSuite:
-     3.1. ...\tsuite\ofuscador\proguard_dictionary.txt
-     3.2. ...\tsuite\ofuscador\proguard_dictionary_class.txt
-     3.3. ...\tsuite\ofuscador\proguard_dictionary_pkg.txt
-4. Chama o ProGuard para ofusca o TSuite.jar
-5. Chama o TSuite, cujo o kit está sendo gerado, na função console "-version" para obter o número da versão
-6. Edita e atualiza o arquivo de configuração do Inno Setup (TSuite.iss) para atualizar as informações de versão e data nos parâmetros AppVerName, AppVersion e OutputBaseFilename
-7. Executa Inno Setup para geração do kit ...\tsuite\instalador\Output\InstalaTSuite_x.x.x.x.exe
-8. Gera a versão zip do kit: ...\tsuite\instalador\TSuite_x.x.x.x.zip, contendo o TSuite.jar, changes.txt, Licenca.txt e Manual_TSuite.pdf
+4. Chama o TSuite, cujo o kit está sendo gerado, na função console "-version" para obter o número da versão
+5. Edita e atualiza o arquivo de configuração do Inno Setup (TSuite.iss) para atualizar as informações de versão e data nos parâmetros AppVerName, AppVersion e OutputBaseFilename
+6. Executa Inno Setup para geração do kit ...\tsuite\instalador\Output\InstalaTSuite_x.x.x.x.exe
+7. Gera a versão zip do kit: ...\tsuite\instalador\TSuite_x.x.x.x.zip, contendo o TSuite.jar, changes.txt, Licenca.txt e Manual_TSuite.pdf
 
 ## O que a ferramenta não faz?
 A ferramenta não envia os kits automaticamente para o site, não por dificuldade técnica, mas porque é uma boa prática testar os kits gerados quanto ao funcionamento antes de disponibilizar aos usuários.
@@ -33,9 +28,3 @@ A utilização é muito simples. Existem apenas duas opções, além do Sair, no
 ## Como configurar?
 Seguem configurações de exemplo:
 ![Exemplo](./Config_example.png)
-
-## O que mudou no SVN?
-O TSuite.jar não é mais guardado ofuscado no SVN na pasta intalador como antes. Agora o TSuite.jar é guardado na pasta ../tsuite/store na versão não ofuscada, pois o ofuscamento passou a ser evocado pela ferramenta.
-
-## Outros pré-requisitos que não estão o SVN
-Tudo o que você precisa para executar a ferramenta está disponível no SVN, bastando fazer o update. A exceção é para o programa Inno Setup que precisa ser instalado na sua máquina e o arquivo de configuração do ofuscador ProGuard (extensão .PRO) que é individual para cada pessoa. Atualmente somente eu e o Sérgio possuímos uma versão deste arquivo que fica na pasta ...\tsuite\instalador. Copie um deles (xandao_windows_tsuite.pro, por exemplo) alterando o nome para o seu. Em seguida edite-o e altere as referências as pastas para o seu ambiente.
