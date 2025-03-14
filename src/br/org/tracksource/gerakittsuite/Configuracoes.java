@@ -7,16 +7,11 @@
 
 package br.org.tracksource.gerakittsuite;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Iterator;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -38,11 +33,6 @@ public class Configuracoes {
     public static String strPastaTSuiteAtualizado           = null; // caminho do TSuite.jar atualizado que será origem do kit
     public static String strPastaDestinoPoisTracksXml       = null; // destino da copia de pois.xml tracks.xml
     public static String strPastaDestinoTabelaMunicipioXml  = null; // destino da copia de tabela_municipios.xml
-    public static String strProguard                        = null; // caminho do programa ofuscador
-    public static String strProguardPro                     = null; // caminho do arquivo .pro (proguard) do usuario
-    public static String strProguardDictionaryPkg           = null; // proguard_dictionary_pkg.txt
-    public static String strProguardDictionaryClass         = null; // proguard_dictionary_class.txt
-    public static String strProguardDictionary              = null; // proguard_dictionary.txt
     public static String strIssTSuite                       = null; // caminho do TSuite.iss
     public static String strInnoSetup                       = null; // caminho do InnoSetup
 
@@ -111,16 +101,6 @@ public class Configuracoes {
             texto += "\t<PASTA_DESTINO_POIS_TRACKS_XML VALOR=\"" + Configuracoes.strPastaDestinoPoisTracksXml + "\"/>\n";
         if(Configuracoes.strPastaDestinoTabelaMunicipioXml != null)
             texto += "\t<PASTA_DESTINO_TABELA_MUNICIPIOS_XML VALOR=\"" + Configuracoes.strPastaDestinoTabelaMunicipioXml + "\"/>\n";
-        if(Configuracoes.strProguard != null)
-            texto += "\t<PROGUARD_EXE VALOR=\"" + Configuracoes.strProguard + "\"/>\n";
-        if(Configuracoes.strProguardPro != null)
-            texto += "\t<PROGUARD_PRO VALOR=\"" + Configuracoes.strProguardPro + "\"/>\n";
-        if(Configuracoes.strProguardDictionaryPkg != null)
-            texto += "\t<PROGUARD_DICTIONARY_PKG VALOR=\"" + Configuracoes.strProguardDictionaryPkg + "\"/>\n";    
-        if(Configuracoes.strProguardDictionaryClass != null)
-            texto += "\t<PROGUARD_DICTIONARY_CLASS VALOR=\"" + Configuracoes.strProguardDictionaryClass + "\"/>\n";
-        if(Configuracoes.strProguardDictionary != null)
-            texto += "\t<PROGUARD_DICTIONARY VALOR=\"" + Configuracoes.strProguardDictionary + "\"/>\n";
         if(Configuracoes.strIssTSuite != null)
             texto += "\t<TSUITE_ISS VALOR=\"" + Configuracoes.strIssTSuite + "\"/>\n";
         if(Configuracoes.strInnoSetup != null)
@@ -171,16 +151,6 @@ class ManipuladorParsingXMLDeConfiguracoes extends DefaultHandler{
             Configuracoes.strPastaDestinoPoisTracksXml = attributes.getValue(0);
         if(string1.equals("PASTA_DESTINO_TABELA_MUNICIPIOS_XML"))
             Configuracoes.strPastaDestinoTabelaMunicipioXml = attributes.getValue(0);
-        if(string1.equals("PROGUARD_EXE"))
-            Configuracoes.strProguard = attributes.getValue(0);
-        if(string1.equals("PROGUARD_PRO"))
-            Configuracoes.strProguardPro = attributes.getValue(0);
-        if(string1.equals("PROGUARD_DICTIONARY_PKG"))
-            Configuracoes.strProguardDictionaryPkg = attributes.getValue(0);
-        if(string1.equals("PROGUARD_DICTIONARY_CLASS"))
-            Configuracoes.strProguardDictionaryClass = attributes.getValue(0);
-        if(string1.equals("PROGUARD_DICTIONARY"))
-            Configuracoes.strProguardDictionary = attributes.getValue(0);
         if(string1.equals("TSUITE_ISS"))
             Configuracoes.strIssTSuite = attributes.getValue(0);
         if(string1.equals("INNO_SETUP_EXE"))

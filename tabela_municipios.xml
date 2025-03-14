@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='iso-8859-1'?>
-<BASE_MUNICIPIOS TIMESTAMP='202101220827'>
+<BASE_MUNICIPIOS TIMESTAMP='202502130637'>
 	<MUNICIPIO codigo ='11100010' UF ='RO' nome ='Alta Floresta dOeste'/>
 	<MUNICIPIO codigo ='11100020' UF ='RO' nome ='Ariquemes'/>
 	<MUNICIPIO codigo ='11100030' UF ='RO' nome ='Cabixi'/>
@@ -1086,7 +1086,7 @@
 	<MUNICIPIO codigo ='22400900' UF ='RN' nome ='Antônio Martins'/>
 	<MUNICIPIO codigo ='22401000' UF ='RN' nome ='Apodi'/>
 	<MUNICIPIO codigo ='22401100' UF ='RN' nome ='Areia Branca'/>
-	<MUNICIPIO codigo ='22401200' UF ='RN' nome ='Arês'/>
+	<MUNICIPIO codigo ='22401200' UF ='RN' nome ='Arez'/>
 	<MUNICIPIO codigo ='22401300' UF ='RN' nome ='Campo Grande'/>
 	<MUNICIPIO codigo ='22401400' UF ='RN' nome ='Baía Formosa'/>
 	<MUNICIPIO codigo ='22401450' UF ='RN' nome ='Baraúna'/>
@@ -1417,10 +1417,10 @@
 	<MUNICIPIO codigo ='22513600' UF ='PB' nome ='Santana dos Garrotes'/>
 	<MUNICIPIO codigo ='22513650' UF ='PB' nome ='Joca Claudino'/>
 	<MUNICIPIO codigo ='22513700' UF ='PB' nome ='Santa Rita'/>
-	<MUNICIPIO codigo ='22513800' UF ='PB' nome ='Santa Teresinha'/>
+	<MUNICIPIO codigo ='22513800' UF ='PB' nome ='Santa Terezinha'/>
 	<MUNICIPIO codigo ='22513850' UF ='PB' nome ='Santo André'/>
 	<MUNICIPIO codigo ='22513900' UF ='PB' nome ='São Bento'/>
-	<MUNICIPIO codigo ='22513920' UF ='PB' nome ='São Bento de Pombal'/>
+	<MUNICIPIO codigo ='22513920' UF ='PB' nome ='São Bentinho'/>
 	<MUNICIPIO codigo ='22513940' UF ='PB' nome ='São Domingos do Cariri'/>
 	<MUNICIPIO codigo ='22513960' UF ='PB' nome ='São Domingos de Pombal'/>
 	<MUNICIPIO codigo ='22513980' UF ='PB' nome ='São Francisco'/>
@@ -4342,7 +4342,7 @@
 	<MUNICIPIO codigo ='44201800' UF ='SC' nome ='Atalanta'/>
 	<MUNICIPIO codigo ='44201900' UF ='SC' nome ='Aurora'/>
 	<MUNICIPIO codigo ='44201950' UF ='SC' nome ='Balneário Arroio do Silva'/>
-	<MUNICIPIO codigo ='44202000' UF ='SC' nome ='Balneário Camboriú'/>
+	<MUNICIPIO codigo ='44202000' UF ='SC' nome ='Balneário Camboriu'/>
 	<MUNICIPIO codigo ='44202050' UF ='SC' nome ='Balneário Barra do Sul'/>
 	<MUNICIPIO codigo ='44202070' UF ='SC' nome ='Balneário Gaivota'/>
 	<MUNICIPIO codigo ='44202080' UF ='SC' nome ='Bandeirante'/>

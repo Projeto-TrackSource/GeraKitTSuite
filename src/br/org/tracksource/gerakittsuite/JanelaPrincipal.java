@@ -23,11 +23,13 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
 import java.nio.channels.FileChannel;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 import javax.swing.ImageIcon;
-import javax.swing.JFrame;
 import javax.swing.SwingWorker;
 import javax.swing.text.AttributeSet;
 import javax.swing.text.SimpleAttributeSet;
@@ -213,17 +215,28 @@ public class JanelaPrincipal extends javax.swing.JFrame {
          }
     }  
     
+    // Copia um arquivo, sobrescrevendo o destino se arquivo ja existir
+    private boolean copyFile(String sourceFile) {
+        Path origem = Paths.get(sourceFile);
+        Path destino = Paths.get(".\\" + origem.getFileName().toString());
+        try {
+            if (Files.deleteIfExists(destino)) {
+                Files.copy(origem, destino);
+            }
+            printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Copiado arquivo atualizado \""+ sourceFile + "\" para a pasta corrente.");
+            return true;
+        } catch (IOException ex) {
+            printLineSysout(JanelaPrincipal.MENSAGEM_ERRO, "Erro ao copiar arquivo \""+ sourceFile + "\":\n " + Util.getStackTrace(ex));
+            return false;
+        }
+    } 
+    
     // Verifica se todos os parametros foram definidos
     private boolean configuracoesOk () {
         boolean retorno = true;
         if(Configuracoes.strPastaTSuiteAtualizado == null || Configuracoes.strPastaTSuiteAtualizado.isEmpty()) retorno = false;
         if(Configuracoes.strPastaDestinoPoisTracksXml == null || Configuracoes.strPastaDestinoPoisTracksXml.isEmpty()) retorno = false;
         if(Configuracoes.strPastaDestinoTabelaMunicipioXml == null || Configuracoes.strPastaDestinoTabelaMunicipioXml.isEmpty()) retorno = false;
-        if(Configuracoes.strProguard == null || Configuracoes.strProguard.isEmpty()) retorno = false;
-        if(Configuracoes.strProguardPro == null || Configuracoes.strProguardPro.isEmpty()) retorno = false;
-        if(Configuracoes.strProguardDictionaryPkg == null || Configuracoes.strProguardDictionaryPkg.isEmpty()) retorno = false;
-        if(Configuracoes.strProguardDictionaryClass == null || Configuracoes.strProguardDictionaryClass.isEmpty()) retorno = false;
-        if(Configuracoes.strProguardDictionary == null || Configuracoes.strProguardDictionary.isEmpty()) retorno = false;
         if(Configuracoes.strIssTSuite == null || Configuracoes.strIssTSuite.isEmpty()) retorno = false;
         if(Configuracoes.strInnoSetup == null || Configuracoes.strInnoSetup.isEmpty()) retorno = false;
         if (!retorno)
@@ -286,15 +299,15 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         if (!this.copyFile("pois.xml", Configuracoes.strPastaDestinoPoisTracksXml)) return false;
         if (!this.copyFile("tracks.xml", Configuracoes.strPastaDestinoPoisTracksXml)) return false;
         if (!this.copyFile("tabela_municipios.xml", Configuracoes.strPastaDestinoTabelaMunicipioXml)) return false;
-        File arquivo = new File ("base-AUXILIAR-BR.gtm");
-        if (arquivo.exists()) 
+        if (!this.copyFile(Configuracoes.strPastaTSuiteAtualizado+"\\TSuite.jar")) return false;
+        // Verifica a existencia de base-AUXILIAR-BR.gtm
+        if (Util.isArquivoExiste("base-AUXILIAR-BR.gtm")) 
             printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Verificado a existencia do arquivo atualizado \"base-AUXILIAR-BR.gtm\"");
         else{
             printLineSysout(JanelaPrincipal.MENSAGEM_ERRO, "Arquivo \"base-AUXILIAR-BR.gtm\" não encontrado.");
             return false;
         }
-        arquivo = new File ("tsuite_update.xml");
-        if (arquivo.exists()) 
+        if (Util.isArquivoExiste("tsuite_update.xml")) 
             printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Verificado a existencia do arquivo atualizado \"tsuite_update.xml\"");
         else
         {
@@ -303,38 +316,6 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         }
         printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Concluida a copia dos arquivos atualizados.\n");
         return true;
-    }
-    
-    // Ofusca o TSuite.jar
-    private boolean ofuscarJar() {
-        printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "************************************************************************************************************");
-        printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Ofuscamento do TSuite");
-        printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "************************************************************************************************************");        
-        String commandProGuard[] = {"java","-jar", "ProGuard.jar", "p1", "-verbose"};
-        int commandProGuard_P1 = 2;  // posicao do comando ProGuard.jar
-        int commandProGuard_P2 = 3;  // posicao do parametro do comando
-        commandProGuard[commandProGuard_P1] = "\"" + Configuracoes.strProguard + "\"";
-        commandProGuard[commandProGuard_P2] = "\"@" + Configuracoes.strProguardPro + "\"";
-        try {
-            Process proc = Runtime.getRuntime().exec (commandProGuard);
-            StreamGobbler errorGobbler = new StreamGobbler(proc.getErrorStream(), 0); 
-            StreamGobbler outputGobbler = new StreamGobbler(proc.getInputStream(), 1); 
-            errorGobbler.start(); 
-            outputGobbler.start(); 
-            int exitVal = proc.waitFor(); 
-            if (exitVal == 0) {
-                printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Concluido o ofuscamento do TSuite.jar.\n");
-                return true;
-            }
-            else{
-                printLineSysout(JanelaPrincipal.MENSAGEM_ERRO, "Erro na execução do comando de ofuscamento.\n");
-                return false;
-            }
-        }
-        catch (Exception ex) {
-            printLineSysout(JanelaPrincipal.MENSAGEM_ERRO, "Erro ao ofuscar TSuite.jar:\n " + Util.getStackTrace(ex));
-            return false;
-        }
     }
     
     // Obtem a versão do TSuite que se está gerando o kit
@@ -432,52 +413,6 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         return lista;
     }
     
-    // Gera os dicionarios para utilizacao no ofuscador ProGuard
-    private boolean gerarDicionariosOfuscamento() {
-        printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "************************************************************************************************************");
-        printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Geração dos dicionários de ofuscamento");
-        printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "************************************************************************************************************");        
-        PrintWriter writer;
-        int qtdPalavrasPorDicionario = 150;
-        ArrayList<String> Dicionario = null;
-        Dicionario = getPalavrasAleatorias (qtdPalavrasPorDicionario * 3);
-        
-        try {
-            // grava Dictionary
-            printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Gerando \"" + Configuracoes.strProguardDictionary + "\"..." );
-            String texto = "";
-            for (int i = 0;i < qtdPalavrasPorDicionario; i++)
-                texto += Dicionario.get(i) + "\n";
-            writer = new PrintWriter(new FileOutputStream(Configuracoes.strProguardDictionary, false));
-            writer.println(texto);
-            writer.close();
-
-            // grava DictionaryClass
-            printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Gerando \"" + Configuracoes.strProguardDictionaryClass + "\"..." );
-            texto = "";
-            for (int i = qtdPalavrasPorDicionario;i < 2*qtdPalavrasPorDicionario; i++)
-                texto += Dicionario.get(i) + "\n";
-            writer = new PrintWriter(new FileOutputStream(Configuracoes.strProguardDictionaryClass, false));
-            writer.println(texto);
-            writer.close();
-
-            // grava DictionaryPkg
-            printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Gerando \"" + Configuracoes.strProguardDictionaryPkg + "\"..." );
-            texto = "";
-            for (int i = 2*qtdPalavrasPorDicionario;i < 3*qtdPalavrasPorDicionario; i++)
-                texto += Dicionario.get(i) + "\n";
-            writer = new PrintWriter(new FileOutputStream(Configuracoes.strProguardDictionaryPkg, false));
-            writer.println(texto);
-            writer.close();
-            printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "Concluida a geração dos dicionários de ofuscamento.\n");
-            return true;
-        }
-        catch (FileNotFoundException ex) {
-            printLineSysout(JanelaPrincipal.MENSAGEM_ERRO, "Erro na geração dos dicionários de ofuscamento:\n " + Util.getStackTrace(ex));
-            return false;
-        }
-    }
-            
     // Atualiza a versão do TSuite no arquivo de configuração do Inno
     private boolean atualizarVersaoConfigInno(){ 
         printLineSysout(JanelaPrincipal.MENSAGEM_INFORMACAO, "************************************************************************************************************");
@@ -568,8 +503,6 @@ public class JanelaPrincipal extends javax.swing.JFrame {
             if (!configuracoesOk()) return false;               // Verifica se todos os parametros foram definidos
             if (!atualizarArquivos()) return false;             // Atualiza os arquivos de configuração do TSuite
             if (!copiarArquivosParaDestinos()) return false;    // Copia os arquivos xml e de limites para os devidos destinos
-            if (!gerarDicionariosOfuscamento()) return false;   // Gera os dicionarios para utilizacao no ofuscador ProGuard
-            if (!ofuscarJar()) return false;                    // Ofusca o TSuite.jar
             if (!obterVersaoTSuite()) return false;             // Obtem a versão do TSuite que se está gerando o kit
             if (!atualizarVersaoConfigInno()) return false;     // Atualiza a versão do TSuite no arquivo de configuração do Inno
             if (!executarInnoSeteup()) return false;            // Executa Inno Setup para geração do kit
